@@ -1,0 +1,15 @@
+{
+  "README.md": "d333fd7f572a125febd091fa317510b1f4a4cea1ada9f3bd5b07f621074cbeaf",
+  "build-comparison.json": "5ec8a87074ddbb581c0097d7d1b83c74a983c861b749f388baf8d056e5abdc87",
+  "build.log": "1c172b98409df37446841cf1d24aa74fb9bfe957c2d573bab48e277048ef5168",
+  "crate/Cargo.lock": "e2c9a1b5b0960f33604a93084a466a17337ccd0197eec557607e2c6e04bfe560",
+  "crate/Cargo.toml": "42b64cbeae855c4028e44802fedc9836efe773d3cabfaab4936f756d7c9ae7c9",
+  "crate/src/errors.rs": "bd1377abfcb46707a8d5b39c5068bf534d4a507df3dbdd6474236fb2887d6bde",
+  "crate/src/lib.rs": "d6c579c4ccea4fd9e6f2d11938a143ed626f1b5a751e0f342f99f702f73b19e1",
+  "differential.json.gz": "04c42d669bc28c97b157e93d23610f3424adfcd74aa32677dbc7af1f72a63909",
+  "pump_fees_candidate.so": "0f7dcf7c3aaaec9da07a34a9cc614ae376a18ae6136d923c0a98604fa18179b7",
+  "source-manifest.json": "e36008d831a1f2dea682c4ad8b53387766d21b83af36076be796e260352373a7",
+  "surfpool-fixtures.json.gz": "8a04d3a805c7caf625e805d33e0312d4dbc73a932ddecfd6ea6877a56493a023",
+  "surfpool-summary.json": "d2128008635c9cbd9dac2a777cf54ccaf7e4b97658e1b32e5c7063311029ef8a",
+  "surfpool-transactions.json.gz": "1c51ce4f9b3c51edf72ea0e038bac53dbeda59b92a585a30cd16a71e521518ce"
+}

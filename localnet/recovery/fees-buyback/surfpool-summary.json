@@ -1,0 +1,18 @@
+{
+  "scope": "Normally signed offline Surfpool buyback initialization, configuration and sweeping with synthetic accounts. Errors, owner, lamports and data compared except BuybackVault.last_claimed; event payloads compared, raw timestamps and logs retained. No complete source or byte identity claim.",
+  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "0f7dcf7c3aaaec9da07a34a9cc614ae376a18ae6136d923c0a98604fa18179b7",
+  "surfpool_sha256": "76b3ab8da78f69e75ba0d4092c35296518ddc4ce83fa58de34e2586092055ef3",
+  "fixture_script_sha256": "83bb76773ef983757f268269eb7697bd589971f64da9f74b01d4c73fe1baf0a3",
+  "runner_sha256": "1f05f79d7084d3558ce1392c843bc6fb46fabeba23746d52e54a1724c7fc1283",
+  "dependency_sha256": {
+    "spl_token": "8190d3f7ceb6cb7a7a8d8924bff89f9f611e15ce1f806f2b6237f3311a98f697",
+    "spl_token_2022": "15a2e615a42e20f31714bbaaee43002ae6f1cda2e8d7118243117ab3c1342e2d",
+    "associated_token": "6804554e69fd3a58caa191dc4a58f4c67223d30ca28ab8987f39fc18d2f7374d"
+  },
+  "cases": 18,
+  "signed_transactions": 36,
+  "mismatches": [],
+  "successful_transactions": 24,
+  "expected_rejections": 12
+}

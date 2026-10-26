@@ -1,0 +1,59 @@
+{
+  "source_commit": "13a7f937ace1041d5d3116472335b6c20bedf5e1",
+  "imported_file_count": 62,
+  "all_import_hashes_verified": true,
+  "original_binary_matches": {
+    "pump": true,
+    "pump_amm": true,
+    "pump_fees": true
+  },
+  "docs_commit": "639b87fb45c3adeffa6f7c4a1bf0cb85e392bf22",
+  "saved_receipt_verifiers_passed": true,
+  "fresh_offline_runtime_passed": null,
+  "surfpool_sha256": null,
+  "steps": [
+    {
+      "script": "pump_fun_verify_offline",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "1ac423c3ba17c59d5714740aa8b269c2c118a6a3ac8bb48dce7beec277cf2332"
+    },
+    {
+      "script": "pump_fun_admin_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "d8e0579c21f74d42549fa060bc8a49c80b6da90ab585d1b9b80bb58ffdf5f625"
+    },
+    {
+      "script": "pump_fun_amm_v2_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "c200296eb8058ecb059f8e5cf88e2cc1562d91c39f5f169a28e566ddfe71f8f4"
+    },
+    {
+      "script": "pump_fun_curve_fresh_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "4d6f6a9f2976cd459ae653c3606895c19fe0042df86ca6af6b99d9b0b3e9de18"
+    },
+    {
+      "script": "pump_fun_curve_migration_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "89d17fb183f247af726b304407df5fdf2de48e672a8fddeee5de58cbb6ffd797"
+    },
+    {
+      "script": "pump_fun_post_migration_amm_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "fc19b78a92c0b49571511e8bb1027726061ceb437d9b17670897fd8d45803ede"
+    },
+    {
+      "script": "pump_fun_fees_withdraw_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "bb70ae6099c22ee83049a862fa5feac12fe81e697fcda057cd203bbeee7f2d43"
+    }
+  ],
+  "scope": "Import integrity, original binary correspondence, and bounded offline paths only. No exact program source builds or complete security audit claimed."
+}

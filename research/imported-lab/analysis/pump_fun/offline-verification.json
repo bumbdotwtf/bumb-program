@@ -1,0 +1,48 @@
+{
+  "official_docs_commit": "639b87fb45c3adeffa6f7c4a1bf0cb85e392bf22",
+  "manifest_sha256": "082caa6a9e72554ce0163917d9ccd6e990734b8841f6c84b0a23c132f64e7b22",
+  "inventory_sha256": "d8fa4280f201387902c05ccf2929baf404c95795a362a40dd0bbfadb692aa715",
+  "dispatch_map_sha256": "8ea9cee0fb3ae9be9b21323b6cadf049b6d5a90430c7728da732a610a599faaf",
+  "programs": [
+    {
+      "name": "pump",
+      "program": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "last_deploy_slot": 458921440,
+      "payload_sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d",
+      "idl_sha256": "7616681ea557975f9f623ac211080f22a93060781eaf4765b0a488d980997207",
+      "declared_instruction_count": 56,
+      "selector_lddw_hit_count": 56,
+      "dispatcher_wrapper_mapped_count": 56,
+      "runtime_handlers_verified_by_this_baseline_check": 0,
+      "fully_reversed_handlers": 0
+    },
+    {
+      "name": "pump_amm",
+      "program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "last_deploy_slot": 458921517,
+      "payload_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
+      "idl_sha256": "b7d8c57a4d9c4dd0109a9ab893052352333252d4eedced10ac091d4d66cab89b",
+      "declared_instruction_count": 38,
+      "selector_lddw_hit_count": 38,
+      "dispatcher_wrapper_mapped_count": 38,
+      "runtime_handlers_verified_by_this_baseline_check": 0,
+      "fully_reversed_handlers": 0
+    },
+    {
+      "name": "pump_fees",
+      "program": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "last_deploy_slot": 456132171,
+      "payload_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+      "idl_sha256": "6b9fa3eccc6e06273076a47b581f9fcb9e531bb7c3c88acbcd44db55a4002b29",
+      "declared_instruction_count": 31,
+      "selector_lddw_hit_count": 31,
+      "dispatcher_wrapper_mapped_count": 31,
+      "runtime_handlers_verified_by_this_baseline_check": 0,
+      "fully_reversed_handlers": 0
+    }
+  ],
+  "declared_instruction_total": 125,
+  "selector_constant_total": 125,
+  "dispatcher_wrapper_total": 125,
+  "scope": "Offline hashes, ELF extent/padding, IDL discriminator lddw-immediate presence and signed branch/direct-call wrapper mapping. No account semantics, handler execution, exact source or live transaction is proved."
+}

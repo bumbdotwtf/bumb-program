@@ -1,0 +1,40 @@
+{
+  "unique_signed_transaction_payloads": 30,
+  "receipts": [
+    {
+      "path": "fresh-receipts/curve-completion-signed-surfpool.json",
+      "sha256": "cfdba224eb23d8926c62658954c9c01d891c40fcd811dbadfb7d852ac8327479"
+    },
+    {
+      "path": "fresh-receipts/curve-create-v2-signed-surfpool.json",
+      "sha256": "3661a9f0819ea8e206137d54e4bd450ef9fee7fc8c63d96f25a8cd5149f34754"
+    },
+    {
+      "path": "fresh-receipts/fees-withdraw-signed-surfpool.json",
+      "sha256": "a82f1d69bf48403569ce2b8030293c2240be5207edf638ea51c90779d414f0ec"
+    },
+    {
+      "path": "fresh-receipts/curve-fresh-trades-v3-signed-surfpool.json",
+      "sha256": "29c882e5018efb2cfdfd2e6e0c99fe44533a85f7fae9161d13301d18841cb12f"
+    },
+    {
+      "path": "fresh-receipts/post-migration-amm-v2-signed-surfpool.json",
+      "sha256": "885df7f9d242e2b39aa138d939245f9c9d695dd97461e0b71e98036d613f9997"
+    },
+    {
+      "path": "fresh-receipts/amm-buy-v2-signed-surfpool.json",
+      "sha256": "0db0e38bb941c5ae64c835f3b1336a5dd6d0dfd6f027ea6cf9d4b749796a1755"
+    },
+    {
+      "path": "fresh-receipts/curve-migrate-v2-signed-surfpool.json",
+      "sha256": "c12eb44f7d19c9743767fb845f20e384c386df1108954f0a8a119375d83a69ba"
+    },
+    {
+      "path": "fresh-receipts/admin-signed-surfpool.json",
+      "sha256": "764df65730675038e68ffaa1745d4f7377e77826d4f90df5245a28138649a058"
+    }
+  ],
+  "python_dependency": "solders 0.27.1",
+  "surfpool_version": "1.6.1",
+  "scope": "Fresh signed offline local replay of imported bounded paths. These are original program executions, not rebuilt-program comparisons."
+}

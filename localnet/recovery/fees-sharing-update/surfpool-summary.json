@@ -1,0 +1,13 @@
+{
+  "scope": "Signed offline sharing updates with captured genuine Pump/AMM CPIs. Exact account/errors comparison; decoded first i64 timestamp excluded from event payload comparison, raw logs retained. Return values retained but not compared. No byte identity claim.",
+  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "2ffc407f61e3d9a2074f3e20ecd5b128bb53ea83cad5c490de190a2550058fdf",
+  "fixture_script_sha256": "21ec993ac86f364a58bfb9073d991bb83aba100cc91c6eaa6d4a3adf48216ffe",
+  "runner_sha256": "004248004e7a54e2701164f1ebfb170df94c7d6618afeec53a45ee7fd7e7a154",
+  "surfpool_sha256": "76b3ab8da78f69e75ba0d4092c35296518ddc4ce83fa58de34e2586092055ef3",
+  "cases": 19,
+  "signed_transactions": 38,
+  "mismatches": [],
+  "successful_transactions": 26,
+  "expected_rejections": 12
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Partial Fees admin CTO tested through genuine captured Pump CPI; not whole-program byte identity.",
+  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "5cc0bec18450846a76576ab2fa8802e0068e39ae771119624c6abb53b27092cf",
+  "litesvm_cases": 63,
+  "cases_reaching_fees": 50,
+  "surfpool_cases": 12,
+  "signed_surfpool_transactions": 24,
+  "mismatches": [],
+  "runner_sha256": "62ee0a5375f078b0d73e9d5d3de320babaff1fbf5daad455b3be131451161112",
+  "fixture_script_sha256": "15d43515af1928ff06563a1020cd0be4aab3aeb675e721f6d08c8481bb57f9ec",
+  "files": {
+    "README.md": "182d95d69613c0e649a159e041a13cdf9d5a7a4266cb0241b90ac8ee5ba01bd2",
+    "build-comparison.json": "2fdc4c9520146e73105d999ee99345a522babbecf1e2bae54ec2fd4e364126f2",
+    "build.log": "dc1ddfb878f9ec6856955b11073159260c047866c98bc08146e949add80280ad",
+    "crate/Cargo.lock": "e2c9a1b5b0960f33604a93084a466a17337ccd0197eec557607e2c6e04bfe560",
+    "crate/Cargo.toml": "42b64cbeae855c4028e44802fedc9836efe773d3cabfaab4936f756d7c9ae7c9",
+    "crate/src/errors.rs": "bd1377abfcb46707a8d5b39c5068bf534d4a507df3dbdd6474236fb2887d6bde",
+    "crate/src/lib.rs": "d352dccbff793d393f372de8ce8f32662585eefbf8e60e9604d643780e20f075",
+    "crate/src/pump_global.rs": "3f4582859b76e9d6a2b5a43bb87d89192eb27878154adcb776f2664bf36099d3",
+    "differential.json.gz": "ddf7c1bcea75eefdd91137e765e6f1d9e8ec1347274ace6a8382f5a4591b93f8",
+    "pump_fees_candidate.so": "5cc0bec18450846a76576ab2fa8802e0068e39ae771119624c6abb53b27092cf",
+    "surfpool-fixtures.json.gz": "5fa3ce3de5b1aa0479b4f948308bdfed2368e3d31ddea32daea5d71d877eeedf",
+    "surfpool-transactions.json.gz": "c94254674863cfc5512368f84dd3054d292a42386bbd3987ad62bca683d240bd"
+  }
+}

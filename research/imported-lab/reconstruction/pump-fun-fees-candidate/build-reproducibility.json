@@ -1,0 +1,44 @@
+{
+  "scope": "Two clean offline SBF builds of an incomplete 31-handler Pump Fees candidate. The reference binary is a comparison input only; no target bytes are copied or patched into the build. This does not demonstrate source or behavior equivalence.",
+  "clean_command": [
+    "cargo",
+    "clean",
+    "--manifest-path",
+    "reconstruction/pump-fun-fees-candidate/Cargo.toml"
+  ],
+  "build_command": [
+    "cargo",
+    "build-sbf",
+    "--manifest-path",
+    "reconstruction/pump-fun-fees-candidate/Cargo.toml",
+    "--offline"
+  ],
+  "build_sbf_version": [
+    "cargo-build-sbf 4.1.0",
+    "platform-tools v1.54",
+    "rustc 1.89.0"
+  ],
+  "source_sha256": {
+    "reconstruction/pump-fun-fees-candidate/Cargo.toml": "93af3bb0e4474f6364b633fcf28840913db0518e2ef14366fb3237dcc3f090bb",
+    "reconstruction/pump-fun-fees-candidate/Cargo.lock": "dbdf2cd0e685911ccdc4fbda9b8260f6613d0af5f0b8f51fa5cb89206377b91d",
+    "reconstruction/pump-fun-fees-candidate/generate.py": "530d0e9482a514e1a561a85e24a6bda9517f9802a348c2c3d07d021301d455ea",
+    "reconstruction/pump-fun-fees-candidate/src/lib.rs": "125177ecf9a149d25ce2ecd1faadc04146f93d6254b0bbaaa105af8d769ffe21",
+    "reconstruction/pump-fun-fees-candidate/src/contexts.rs": "9055086947318d9b074b3e779c2d9743a480aee7692a09bef89617af1898456b",
+    "reconstruction/pump-fun-fees-candidate/src/types.rs": "9424efe4abcda7c1e05c5f867fcd2ee90ceaf07b02a61acd41e3220755977f87"
+  },
+  "candidate_clean_build_sha256": [
+    "751cf120c36c123f0b555ae8ab61955cd8a8d28a6defe6ff7a8da6eccde26d48",
+    "751cf120c36c123f0b555ae8ab61955cd8a8d28a6defe6ff7a8da6eccde26d48"
+  ],
+  "clean_builds_identical": true,
+  "reference_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "751cf120c36c123f0b555ae8ab61955cd8a8d28a6defe6ff7a8da6eccde26d48",
+  "reference_elf_bytes": 873256,
+  "candidate_elf_bytes": 289528,
+  "reference_text_bytes": 799648,
+  "candidate_text_bytes": 244256,
+  "same_machine_and_flags": true,
+  "same_section_names_and_order": true,
+  "whole_program_equal": false,
+  "comparison_path": "analysis/source_reconstruction/pump-fun-fees-candidate-compare.json"
+}

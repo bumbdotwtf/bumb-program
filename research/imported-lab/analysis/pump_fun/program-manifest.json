@@ -1,0 +1,57 @@
+{
+  "endpoint": "https://api.mainnet-beta.solana.com",
+  "commitment": "finalized",
+  "captured_at_utc": "2026-10-24T22:22:15.093412+00:00",
+  "official_docs_commit": "639b87fb45c3adeffa6f7c4a1bf0cb85e392bf22",
+  "programs": [
+    {
+      "program": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "programdata": "B5MvUwXdiW1NMM6QFFD3ssPKBujD4zMohncbM73Z2BQu",
+      "program_account_capture_slot": 461018255,
+      "programdata_capture_slot": 461018256,
+      "program_account_raw_sha256": "8101492b544ce08703d5de95363bf796e7e4cd17d03639cfe603071fb59652eb",
+      "programdata_account_raw_sha256": "0b692730f9707139fd86d1c1e3a7d63a3f7cb0702278975fa99df90883aab508",
+      "last_deploy_slot": 458921440,
+      "upgrade_authority": "7gZufwwAo17y5kg8FMyJy2phgpvv9RSdzWtdXiWHjFr8",
+      "payload_sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d",
+      "payload_bytes": 10485715,
+      "programdata_raw_bytes": 10485760,
+      "idl_sha256": "7616681ea557975f9f623ac211080f22a93060781eaf4765b0a488d980997207",
+      "idl_instruction_count": 56,
+      "path": "inputs/pump_fun/pump.so"
+    },
+    {
+      "program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "programdata": "6naEzKeUuFh1Jeeu51NXQgr5qkXgXtc9WKNct4xynVJc",
+      "program_account_capture_slot": 461018263,
+      "programdata_capture_slot": 461018264,
+      "program_account_raw_sha256": "8a28beaa6366bb6236a8b455b61b280f430b4da6583becf73fd229886844e0da",
+      "programdata_account_raw_sha256": "e3d3be2256841163ba89b6184c2cc90ca1700c820bf887e5bb58b0aa668f5840",
+      "last_deploy_slot": 458921517,
+      "upgrade_authority": "7gZufwwAo17y5kg8FMyJy2phgpvv9RSdzWtdXiWHjFr8",
+      "payload_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
+      "payload_bytes": 10485715,
+      "programdata_raw_bytes": 10485760,
+      "idl_sha256": "b7d8c57a4d9c4dd0109a9ab893052352333252d4eedced10ac091d4d66cab89b",
+      "idl_instruction_count": 38,
+      "path": "inputs/pump_fun/pump_amm.so"
+    },
+    {
+      "program": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "programdata": "75Uu23mqWBb8LM8vDppqC1mQAnCcBuLXhVaDezVMQLRw",
+      "program_account_capture_slot": 461018268,
+      "programdata_capture_slot": 461018269,
+      "program_account_raw_sha256": "cc9077315efa761cfe0b52aae08678ccda2a07e0fa2b374c98a1d51a1b4ce079",
+      "programdata_account_raw_sha256": "3cf9ee9a380c0ced31171802d402551910ceb8c4819ede4ef44aaf63a12dbfac",
+      "last_deploy_slot": 456132171,
+      "upgrade_authority": "7gZufwwAo17y5kg8FMyJy2phgpvv9RSdzWtdXiWHjFr8",
+      "payload_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+      "payload_bytes": 948944,
+      "programdata_raw_bytes": 948989,
+      "idl_sha256": "6b9fa3eccc6e06273076a47b581f9fcb9e531bb7c3c88acbcd44db55a4002b29",
+      "idl_instruction_count": 31,
+      "path": "inputs/pump_fun/pump_fees.so"
+    }
+  ],
+  "scope": "Read-only program and ProgramData getAccountInfo responses; payloads retain allocation padding. IDL selector declarations are not yet verified against these executables. No wallet or transaction was used."
+}

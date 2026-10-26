@@ -1,0 +1,51 @@
+{
+   "schemaVersion": 2,
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "config": {
+      "mediaType": "application/vnd.docker.container.image.v1+json",
+      "size": 5840,
+      "digest": "sha256:8a1c7e411dda3083f89fc82e9fbcbc57cfffed615853f11c124ef3df1443978f"
+   },
+   "layers": [
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 55049027,
+         "digest": "sha256:bd73737482dd5575526c7207872963479808d979ab2741c321706b8553918474"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 15760489,
+         "digest": "sha256:6710592d62aa1338ac1c1c363dedc255659f666cc41441c7e0f735c484db10ff"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 54584391,
+         "digest": "sha256:75256935197ed1bb3b994a77c01efa00349b901014448a260fafd9c3719a741d"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 196853757,
+         "digest": "sha256:c1e5026c64577dee4b6bac20b18196f964a41d8b9016fbbbada0c70b601cd5bf"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 173773758,
+         "digest": "sha256:7e83136223c14c39ee709add02d3109ff76ca58491a816d0e9755f27eac139e2"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 33471095,
+         "digest": "sha256:3016c2977b6b5f1c0949b6d15b1cd7974c434611cf7c766e05fdc23168bc7ab7"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 359000761,
+         "digest": "sha256:7be33c1ab23cdcdb9fe6aa51c362ab6b47959d8637b3679b6e5e00d34b374720"
+      },
+      {
+         "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+         "size": 95,
+         "digest": "sha256:7877327dfffc13d955ad8fe522d788ede5b57a74c870a8fb44a1b0bafc6a4f45"
+      }
+   ]
+}

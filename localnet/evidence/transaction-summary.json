@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-10-25T00:16:35.838978+00:00",
+  "surfpool_version": "1.6.1",
+  "receipt_files": [
+    {
+      "path": "lab/analysis/pump_fun/admin-signed-surfpool.json",
+      "sha256": "720af47d1bc1bb87f139b0deb0ddddea447b46689503f90b9e5644b95799948a"
+    },
+    {
+      "path": "lab/analysis/pump_fun/amm-buy-v2-signed-surfpool.json",
+      "sha256": "49007b3b83c886032fb4d5b797abfc67a93d2571cea2277676f02aef8f8aceac"
+    },
+    {
+      "path": "lab/analysis/pump_fun/curve-create-v2-signed-surfpool.json",
+      "sha256": "3661a9f0819ea8e206137d54e4bd450ef9fee7fc8c63d96f25a8cd5149f34754"
+    },
+    {
+      "path": "lab/analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json",
+      "sha256": "75b3aaf60cf1e13b1fbfc4d1306773fecf934a833b809d62f4fd4e52bda86585"
+    },
+    {
+      "path": "lab/analysis/pump_fun/curve-completion-signed-surfpool.json",
+      "sha256": "365be77addafab9b65a4132e4d15501ce73c2ec52b3269f40f80b383ce799190"
+    },
+    {
+      "path": "lab/analysis/pump_fun/curve-migrate-v2-signed-surfpool.json",
+      "sha256": "b074899435f7b5601d100e45a9d7c2d04a75bb8d841e2a08303ea01c73eef58f"
+    },
+    {
+      "path": "lab/analysis/pump_fun/post-migration-amm-v2-signed-surfpool.json",
+      "sha256": "1c3eb3991974a078976bf684c70bbbbc85c52d1b09df7fe1312c274390303447"
+    },
+    {
+      "path": "lab/analysis/pump_fun/fees-withdraw-signed-surfpool.json",
+      "sha256": "ccc06db61eac003de123764f72f78b6378a7a73031e59fbce15d34865e7f1acb"
+    }
+  ],
+  "unique_signed_transactions": 30,
+  "successful_transactions": 15,
+  "expected_rejections": 15,
+  "all_fresh_receipt_checks_passed": true,
+  "scope": "Offline original-program fixture tests only. Synthetic signers and authority substitutions; no full byte-identity or complete historical state claim. Mayhem trade execution is not covered by the imported lifecycle suite."
+}

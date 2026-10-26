@@ -1,0 +1,164 @@
+{
+  "program": "RLAYHr9TRFcKB2ubYQhspcnXiaGpaVzNQvHytt47RZu",
+  "binary_sha256": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
+  "idl_version": "0.6.0",
+  "idl_file_sha256": "b075f7b39b019630067e5f6a67015396ccbd66d282c7da048753660506472d6c",
+  "embedded_security_fields": {
+    "name": "Donate.gg Donation Relay",
+    "project_url": "https://donate.gg",
+    "contacts": "email:security@donate.gg,twitter:@donatedotgg,link:https://www.donate.gg/contact",
+    "policy": "https://donate.gg/contract-security-policy",
+    "preferred_languages": "en",
+    "source_code": "https://github.com/CherryDevelopmentOrg/daas",
+    "auditors": "@HalbornSecurity",
+    "acknowledgements": "Thanks to the following people for their contributions to the project: @teapotbits, @BuiltByFrancis, @darkmodeprince"
+  },
+  "security_byte_offset": 757832,
+  "security_byte_length": 509,
+  "rust_source_paths": [
+    "programs/contracts/src/cpi/jupiter.rs",
+    "programs/contracts/src/events/v1/donation_epoch_closed.rs",
+    "programs/contracts/src/events/v1/donation_epoch_just_swapped.rs",
+    "programs/contracts/src/events/v1/donation_epoch_processed.rs",
+    "programs/contracts/src/events/v1/donation_made.rs",
+    "programs/contracts/src/instructions/v1/public_api/donate/donate.rs",
+    "programs/contracts/src/instructions/v1/public_api/donate/donate_native.rs",
+    "programs/contracts/src/instructions/v1/public_api/donate/donate_native_pubkey_config_id.rs",
+    "programs/contracts/src/instructions/v1/public_api/donate/donate_pubkey_config_id.rs",
+    "programs/contracts/src/instructions/v1/public_api/donate/donate_pubkey_config_id_with_payer.rs",
+    "programs/contracts/src/instructions/v1/relayer_only/close_donation_epoch.rs",
+    "programs/contracts/src/instructions/v1/relayer_only/distribute/distribute_after_just_swapping.rs",
+    "programs/contracts/src/instructions/v1/relayer_only/distribute/distribute_non_swap_output_mint.rs",
+    "programs/contracts/src/instructions/v1/relayer_only/distribute/just_swap.rs",
+    "programs/contracts/src/instructions/v1/relayer_only/distribute/swap_then_distribute.rs",
+    "programs/contracts/src/instructions/v1/relayer_only/upsert_mint_whitelist.rs",
+    "programs/contracts/src/lib.rs",
+    "programs/contracts/src/state/v1/debouncer.rs",
+    "programs/contracts/src/state/v1/distribution.rs",
+    "programs/contracts/src/state/v1/epoch_tracker.rs",
+    "programs/contracts/src/state/v1/mint_whitelist.rs",
+    "programs/contracts/src/state/v1/swap_receipt.rs",
+    "programs/contracts/src/tools/checks.rs",
+    "programs/contracts/src/tools/distribution/shared.rs",
+    "programs/contracts/src/tools/donate/shared.rs",
+    "programs/contracts/src/tools/fair_distribution.rs"
+  ],
+  "compiler_version": null,
+  "compiler_reason": "No .comment section or exact Rust compiler version string found; platform-tools source paths alone do not identify a version.",
+  "instructions": {
+    "close_donation_epoch_v1": {
+      "discriminator": "ab1c36d68c89655a",
+      "matches": [
+        {
+          "constant_address": 515736,
+          "comparison_address": 515752,
+          "matched_branch_address": 516776
+        }
+      ]
+    },
+    "distribute_after_just_swapping_v1": {
+      "discriminator": "d2b031be93697377",
+      "matches": [
+        {
+          "constant_address": 515832,
+          "comparison_address": 515848,
+          "matched_branch_address": 517112
+        }
+      ]
+    },
+    "distribute_non_swap_output_mint_v1": {
+      "discriminator": "9895643076ec09f3",
+      "matches": [
+        {
+          "constant_address": 515864,
+          "comparison_address": 515880,
+          "matched_branch_address": 517224
+        }
+      ]
+    },
+    "donate_native_pubkey_config_id_v1": {
+      "discriminator": "c0fe8410d02b9a52",
+      "matches": [
+        {
+          "constant_address": 515672,
+          "comparison_address": 515688,
+          "matched_branch_address": 516552
+        }
+      ]
+    },
+    "donate_native_v1": {
+      "discriminator": "79a00f2cdb2b8607",
+      "matches": [
+        {
+          "constant_address": 515640,
+          "comparison_address": 515656,
+          "matched_branch_address": 516440
+        }
+      ]
+    },
+    "donate_pubkey_config_id_v1": {
+      "discriminator": "bb8dcfd83cf6c49b",
+      "matches": [
+        {
+          "constant_address": 515592,
+          "comparison_address": 515624,
+          "matched_branch_address": 516328
+        }
+      ]
+    },
+    "donate_pubkey_config_id_with_payer_v1": {
+      "discriminator": "78d939f187688bb8",
+      "matches": [
+        {
+          "constant_address": 515704,
+          "comparison_address": 515720,
+          "matched_branch_address": 516664
+        }
+      ]
+    },
+    "donate_v1": {
+      "discriminator": "8808669cd60411ab",
+      "matches": [
+        {
+          "constant_address": 515560,
+          "comparison_address": 515576,
+          "matched_branch_address": 516216
+        }
+      ]
+    },
+    "just_swap_v1": {
+      "discriminator": "cc9f84758456df49",
+      "matches": [
+        {
+          "constant_address": 515800,
+          "comparison_address": 515816,
+          "matched_branch_address": 517000
+        }
+      ]
+    },
+    "swap_then_distribute_v1": {
+      "discriminator": "da55edb218ae6629",
+      "matches": [
+        {
+          "constant_address": 515768,
+          "comparison_address": 515784,
+          "matched_branch_address": 516888
+        }
+      ]
+    },
+    "upsert_mint_whitelist_v1": {
+      "discriminator": "d185fd0c5009e780",
+      "matches": [
+        {
+          "constant_address": 515896,
+          "comparison_address": 515912,
+          "matched_branch_address": 517336
+        }
+      ]
+    }
+  },
+  "matched_discriminators": 11,
+  "source_available": false,
+  "source_check": "Embedded repository URL returned GitHub HTTP404 in both API and browser checks. No source commit pinned by metadata.",
+  "scope": "Embedded publisher attribution and IDL/dispatcher correspondence only; metadata is not independent audit verification or byte-identical source evidence."
+}

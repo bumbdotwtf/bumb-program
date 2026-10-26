@@ -1,0 +1,27 @@
+{
+  "package": "@pump-fun/pump-sdk",
+  "version": "4.3.1",
+  "publisher_source": "https://registry.npmjs.org/@pump-fun/pump-sdk/-/pump-sdk-4.3.1.tgz",
+  "tarball_sha256": "c8ff4e850651c81e9f488bfc6dffb4513a041bb4bca0819879dc19d9a72a4641",
+  "source_path_in_tarball": "package/src/sdk.ts",
+  "source_sha256": "eb7288ec796fedf4e9226a694dd68371b2d0465cef803436bf9d15214cc9f291",
+  "function": "migrateV2Instruction",
+  "source_lines": [1913, 2018],
+  "fixed_idl_account_count": 27,
+  "appended_remaining_accounts": [
+    {
+      "name": "boost_vault_authority",
+      "program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "pda_seeds": ["boost_vault", "pool"],
+      "writable": false
+    },
+    {
+      "name": "boost_vault",
+      "derivation": "ATA(boost_vault_authority, quote_mint, quote_token_program)",
+      "writable": true
+    }
+  ],
+  "quote_mint_meta_writable": true,
+  "local_executable_check": "The current pinned Pump ELF returned 6027 after CPIs when only the fixed 27 IDL accounts were supplied. With these two extra accounts, the same fresh completed-curve migration committed in offline Surfpool.",
+  "qualification": "The SDK source is a client builder published after the pinned public-docs commit. It suggests account construction; current-binary local execution, not the SDK alone, establishes the tested behavior. This is not deployed on-chain Rust source or full migration semantics."
+}

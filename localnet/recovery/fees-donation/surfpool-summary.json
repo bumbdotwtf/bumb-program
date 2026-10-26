@@ -1,0 +1,16 @@
+{
+  "scope": "Normally signed offline Surfpool donation forwarding with synthetic accounts. Errors, owner, lamports and data compared except DonationFeePda.last_crank_ts; timestamp-sensitive logs retained, not compared. No complete source or byte identity claim.",
+  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "8f1ac2f1fd9d1a25953f9a08bc8e88d5c5b951331675c96e92c2a9ff34912b44",
+  "surfpool_sha256": "76b3ab8da78f69e75ba0d4092c35296518ddc4ce83fa58de34e2586092055ef3",
+  "fixture_script_sha256": "011ef4528138bbe3e28005ca488487d1d28446de1cacabaec1a868fc252cdb43",
+  "runner_sha256": "a49bb430f7793ce1d055bc5d2437a21870a41feb037f8e5b439340754a226dd7",
+  "dependency_sha256": {
+    "donation_relay": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563",
+    "spl_token": "8190d3f7ceb6cb7a7a8d8924bff89f9f611e15ce1f806f2b6237f3311a98f697",
+    "associated_token": "6804554e69fd3a58caa191dc4a58f4c67223d30ca28ab8987f39fc18d2f7374d"
+  },
+  "cases": 10,
+  "signed_transactions": 20,
+  "mismatches": []
+}

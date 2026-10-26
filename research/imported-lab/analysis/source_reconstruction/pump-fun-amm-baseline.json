@@ -1,0 +1,99 @@
+{
+  "target": "pump-fun-amm",
+  "reference": {
+    "path": "inputs/pump_fun/pump_amm.so",
+    "whole_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
+    "whole_bytes": 10485715,
+    "machine": "263",
+    "elf_flags": 0,
+    "entry_point": 974888,
+    "elf_bytes": 1268504,
+    "elf_sha256": "51a5f6a7fb5a812de7686e593ce6159f6ee59b15771a3d5d37ab661c46d64586",
+    "allocation_padding_bytes": 9217211,
+    "allocation_padding_all_zero": true,
+    "sections": [
+      {
+        "name": "",
+        "type": "SHT_NULL",
+        "file_offset": 0,
+        "virtual_address": 0,
+        "size": 0,
+        "alignment": 0,
+        "sha256": null
+      },
+      {
+        "name": ".text",
+        "type": "SHT_PROGBITS",
+        "file_offset": 288,
+        "virtual_address": 288,
+        "size": 1162040,
+        "alignment": 8,
+        "sha256": "a8e8a0fb2a49d71e615affdc480b4753312dc18b6fcbecc351838cf95e494c4f"
+      },
+      {
+        "name": ".rodata",
+        "type": "SHT_PROGBITS",
+        "file_offset": 1162328,
+        "virtual_address": 1162328,
+        "size": 25715,
+        "alignment": 8,
+        "sha256": "1df4e071eb74487c74f27b758e53cf0d7d9ea674770f771c81c5757a1e9e81d3"
+      },
+      {
+        "name": ".data.rel.ro",
+        "type": "SHT_PROGBITS",
+        "file_offset": 1188048,
+        "virtual_address": 1188048,
+        "size": 8584,
+        "alignment": 8,
+        "sha256": "b14ba9a08c757fd7ad2d896827b83cf245f00a5ed3922da4b42a8113334f0a07"
+      },
+      {
+        "name": ".dynamic",
+        "type": "SHT_DYNAMIC",
+        "file_offset": 1196632,
+        "virtual_address": 1196632,
+        "size": 176,
+        "alignment": 8,
+        "sha256": "3b35617128746455719b1d24c64a2a50d816dfeae485f34e966d984c9bf75b0f"
+      },
+      {
+        "name": ".dynsym",
+        "type": "SHT_DYNSYM",
+        "file_offset": 1196808,
+        "virtual_address": 1196808,
+        "size": 408,
+        "alignment": 8,
+        "sha256": "43fbfe84689f2f50df8231dcd37f53fe7309cdbe72f48d82f33d847afbafa52f"
+      },
+      {
+        "name": ".dynstr",
+        "type": "SHT_STRTAB",
+        "file_offset": 1197216,
+        "virtual_address": 1197216,
+        "size": 255,
+        "alignment": 1,
+        "sha256": "a77c1891c9d628111a02a7a4bb670c1dd4c38f3e6dc682292058a205ce747b2e"
+      },
+      {
+        "name": ".rel.dyn",
+        "type": "SHT_REL",
+        "file_offset": 1197472,
+        "virtual_address": 1197472,
+        "size": 70384,
+        "alignment": 8,
+        "sha256": "a64235af18076fea41bacf14f0c39da7ea59c5653f8ce18847330d5efbb9b802"
+      },
+      {
+        "name": ".shstrtab",
+        "type": "SHT_STRTAB",
+        "file_offset": 1267856,
+        "virtual_address": 0,
+        "size": 72,
+        "alignment": 1,
+        "sha256": "d981263d501f120e0990544791b6647d652caea4613d7fe87ca90431c71f4911"
+      }
+    ]
+  },
+  "source_reconstruction_status": "no candidate supplied"
+}

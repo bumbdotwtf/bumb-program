@@ -1,0 +1,30 @@
+[package]
+name = "pump-fun-fees-candidate"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "pump_fees_candidate"
+crate-type = ["cdylib", "lib"]
+
+[features]
+default = []
+no-entrypoint = []
+cpi = ["no-entrypoint"]
+no-idl = []
+no-log-ix-name = []
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+
+[dependencies]
+anchor-lang = "=0.30.1"
+
+[profile.release]
+panic = "abort"
+overflow-checks = true
+lto = false
+codegen-units = 1
+
+[workspace]

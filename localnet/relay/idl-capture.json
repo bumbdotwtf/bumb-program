@@ -1,0 +1,10 @@
+{
+  "idl_address": "6mCmANHqUcqWCLAUtB3DFJSDv14yWPq4wXUzDhdMj3Ge",
+  "program": "RLAYHr9TRFcKB2ubYQhspcnXiaGpaVzNQvHytt47RZu",
+  "captured_at_utc": "2026-10-25T00:18:30.416522+00:00",
+  "endpoint": "https://api.mainnet-beta.solana.com",
+  "account_found": true,
+  "account_sha256": "c44756f7183d50102a4e5d2053c16fdc2bcea98302113e91de51a82f4218ea4b",
+  "idl_sha256": "a8a0923d39ab334c346d46ae139c85c59bb1944cf782acf147cc0ec4d0625dca",
+  "slot": 461051143
+}

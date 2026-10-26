@@ -1,0 +1,10 @@
+{
+  "scope": "Signed offline transactions comparing ten Mayhem admin handlers over synthetic fixtures. Account state, errors and balance deltas compared. Logs retained but timestamp-sensitive events not compared. Not Mayhem trades or full program byte identity.",
+  "original_sha256": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb",
+  "candidate_sha256": "126babacd3d9caa67dfc476cab690cc377aa21401c412d04f52286eab475391b",
+  "fixtures_script_sha256": "02c8597c18e704472bcde86485e8784228020bb3e099ab805d4583269e0393db",
+  "surfpool_sha256": "76b3ab8da78f69e75ba0d4092c35296518ddc4ce83fa58de34e2586092055ef3",
+  "cases": 60,
+  "signed_transactions": 120,
+  "mismatches": []
+}

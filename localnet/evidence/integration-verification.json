@@ -1,0 +1,125 @@
+{
+  "source_commit": "13a7f937ace1041d5d3116472335b6c20bedf5e1",
+  "imported_file_count": 62,
+  "all_import_hashes_verified": true,
+  "original_binary_matches": {
+    "pump": true,
+    "pump_amm": true,
+    "pump_fees": true
+  },
+  "docs_commit": "639b87fb45c3adeffa6f7c4a1bf0cb85e392bf22",
+  "saved_receipt_verifiers_passed": true,
+  "fresh_offline_runtime_passed": true,
+  "surfpool_sha256": "76b3ab8da78f69e75ba0d4092c35296518ddc4ce83fa58de34e2586092055ef3",
+  "steps": [
+    {
+      "script": "pump_fun_verify_offline",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "40ee99787cf2fe8fd7e234754cc83bccee520b704e7c52d115b7e86a113ee631"
+    },
+    {
+      "script": "pump_fun_admin_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "4873121434b09b0493e4371f39d93272f83f00aad585c7949ce45927391238ac"
+    },
+    {
+      "script": "pump_fun_amm_v2_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "cf2b1895e8cdcfb24407cee209049ed9c809397c81c7e755b9862cef42804e89"
+    },
+    {
+      "script": "pump_fun_curve_fresh_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "7b7177326015d451077f82e62415045dca5dc6d4c35cf1f12ac01918b9db21dd"
+    },
+    {
+      "script": "pump_fun_curve_migration_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "765f9da672d9de87621619044de33b89959988adfbb3d5e3693f749cbba4dc14"
+    },
+    {
+      "script": "pump_fun_post_migration_amm_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "b8cfbdf72f47c7a7525adbd0858e232e660d784762ae40b06dcd6521a8ae2c71"
+    },
+    {
+      "script": "pump_fun_fees_withdraw_surfpool_verify",
+      "phase": "saved",
+      "exit_code": 0,
+      "log_sha256": "22eb11e5361686446cafb7e887eb71d0aa2f27f48a00e252f9d4fabd0b14fc85"
+    },
+    {
+      "script": "pump_fun_admin_surfpool",
+      "phase": "runtime",
+      "exit_code": 0,
+      "log_sha256": "74d8d5b48a277f6ce1c5abe889a929cc0501b98660e9fac0cb06a469e3c54a02"
+    },
+    {
+      "script": "pump_fun_amm_buy_v2_surfpool",
+      "phase": "runtime",
+      "exit_code": 0,
+      "log_sha256": "5958f29413cb806844fe0645e91488f79d905b70fe8ab7d3c0b715c33eb42a37"
+    },
+    {
+      "script": "pump_fun_curve_create_v2_surfpool",
+      "phase": "runtime",
+      "exit_code": 0,
+      "log_sha256": "f16a608906e40577a1c97010413a7ed394b5dde670cd87a7aaac61e3a7c61764"
+    },
+    {
+      "script": "pump_fun_fees_withdraw_surfpool",
+      "phase": "runtime",
+      "exit_code": 0,
+      "log_sha256": "53d3bff31842c55ce05f9617af5928bff1410fe146accd8703994ea7aac6c0e9"
+    },
+    {
+      "script": "pump_fun_verify_offline",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "40ee99787cf2fe8fd7e234754cc83bccee520b704e7c52d115b7e86a113ee631"
+    },
+    {
+      "script": "pump_fun_admin_surfpool_verify",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "4873121434b09b0493e4371f39d93272f83f00aad585c7949ce45927391238ac"
+    },
+    {
+      "script": "pump_fun_amm_v2_surfpool_verify",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "cf2b1895e8cdcfb24407cee209049ed9c809397c81c7e755b9862cef42804e89"
+    },
+    {
+      "script": "pump_fun_curve_fresh_surfpool_verify",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "7b7177326015d451077f82e62415045dca5dc6d4c35cf1f12ac01918b9db21dd"
+    },
+    {
+      "script": "pump_fun_curve_migration_surfpool_verify",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "765f9da672d9de87621619044de33b89959988adfbb3d5e3693f749cbba4dc14"
+    },
+    {
+      "script": "pump_fun_post_migration_amm_surfpool_verify",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "b8cfbdf72f47c7a7525adbd0858e232e660d784762ae40b06dcd6521a8ae2c71"
+    },
+    {
+      "script": "pump_fun_fees_withdraw_surfpool_verify",
+      "phase": "fresh",
+      "exit_code": 0,
+      "log_sha256": "22eb11e5361686446cafb7e887eb71d0aa2f27f48a00e252f9d4fabd0b14fc85"
+    }
+  ],
+  "scope": "Import integrity, original binary correspondence, and bounded offline paths only. No exact program source builds or complete security audit claimed."
+}

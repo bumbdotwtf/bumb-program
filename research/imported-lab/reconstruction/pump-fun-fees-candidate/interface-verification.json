@@ -1,0 +1,319 @@
+{
+  "scope": "Local candidate only, not deployed Pump Fees. All 31 IDL selectors and zero-valued argument encodings reach intentionally unsupported Anchor bodies under constructed local accounts. This proves scaffold dispatch, not target behavior or byte equality.",
+  "idl_sha256": "6b9fa3eccc6e06273076a47b581f9fcb9e531bb7c3c88acbcd44db55a4002b29",
+  "candidate_sha256": "751cf120c36c123f0b555ae8ab61955cd8a8d28a6defe6ff7a8da6eccde26d48",
+  "selector_count": 31,
+  "unsupported_reached": 31,
+  "cases": [
+    {
+      "instruction": "admin_cto_sharing_config",
+      "discriminator_hex": "3c64909c408ab625",
+      "idl_account_count": 7,
+      "zero_argument_bytes": 1,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3659
+    },
+    {
+      "instruction": "claim_social_fee_pda",
+      "discriminator_hex": "e115fb85a11ec7e2",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 5,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3610
+    },
+    {
+      "instruction": "claim_social_fee_pda_v2",
+      "discriminator_hex": "114df0863abc3595",
+      "idl_account_count": 12,
+      "zero_argument_bytes": 5,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 5431
+    },
+    {
+      "instruction": "crank_donation_fee_pda",
+      "discriminator_hex": "dc0abda7a9111945",
+      "idl_account_count": 17,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 6852
+    },
+    {
+      "instruction": "create_donation_fee_pda",
+      "discriminator_hex": "f48b10580eff7a1a",
+      "idl_account_count": 11,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 5051
+    },
+    {
+      "instruction": "create_fee_sharing_config",
+      "discriminator_hex": "c34e564c6f34fbd5",
+      "idl_account_count": 13,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 5653
+    },
+    {
+      "instruction": "create_social_fee_pda",
+      "discriminator_hex": "90e03bd34ef8cadc",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 5,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3635
+    },
+    {
+      "instruction": "extend_fee_config",
+      "discriminator_hex": "44b3f45aad3811d9",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3555
+    },
+    {
+      "instruction": "get_fees",
+      "discriminator_hex": "e7257e55cf5b3f34",
+      "idl_account_count": 2,
+      "zero_argument_bytes": 26,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 2339
+    },
+    {
+      "instruction": "get_fees_with_quote_mint",
+      "discriminator_hex": "9aed8a5ca202a2bb",
+      "idl_account_count": 2,
+      "zero_argument_bytes": 49,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 2332
+    },
+    {
+      "instruction": "initialize_buyback",
+      "discriminator_hex": "fa81eca0e3246786",
+      "idl_account_count": 9,
+      "zero_argument_bytes": 1,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 4457
+    },
+    {
+      "instruction": "initialize_fee_config",
+      "discriminator_hex": "3ea214857941911b",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3559
+    },
+    {
+      "instruction": "initialize_fee_program_global",
+      "discriminator_hex": "23d78254e9387ca7",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 41,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3561
+    },
+    {
+      "instruction": "revoke_fee_sharing_authority",
+      "discriminator_hex": "12e99e27b9cf3a68",
+      "idl_account_count": 0,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 1669
+    },
+    {
+      "instruction": "set_authority",
+      "discriminator_hex": "85fa25156ea31a79",
+      "idl_account_count": 4,
+      "zero_argument_bytes": 32,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 2940
+    },
+    {
+      "instruction": "set_claim_rate_limit",
+      "discriminator_hex": "b9d39faed4315804",
+      "idl_account_count": 4,
+      "zero_argument_bytes": 8,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 2940
+    },
+    {
+      "instruction": "set_disable_flags",
+      "discriminator_hex": "c2d9702372de33be",
+      "idl_account_count": 4,
+      "zero_argument_bytes": 1,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 2941
+    },
+    {
+      "instruction": "set_exotic_flat_fees",
+      "discriminator_hex": "1eea958afce62749",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 24,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3686
+    },
+    {
+      "instruction": "set_social_claim_authority",
+      "discriminator_hex": "9336b89a88edb999",
+      "idl_account_count": 4,
+      "zero_argument_bytes": 32,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3063
+    },
+    {
+      "instruction": "sweep_buyback",
+      "discriminator_hex": "8a21cc26cfa19fe2",
+      "idl_account_count": 11,
+      "zero_argument_bytes": 1,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 5180
+    },
+    {
+      "instruction": "transfer_fee_sharing_authority",
+      "discriminator_hex": "ca0a4bc8a422d260",
+      "idl_account_count": 0,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 1791
+    },
+    {
+      "instruction": "update_admin",
+      "discriminator_hex": "a1b028d53cb8b3e4",
+      "idl_account_count": 6,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3649
+    },
+    {
+      "instruction": "update_buyback_authority",
+      "discriminator_hex": "426271ca7925db6b",
+      "idl_account_count": 5,
+      "zero_argument_bytes": 33,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3363
+    },
+    {
+      "instruction": "update_buyback_claim_rate_limit",
+      "discriminator_hex": "ba5f87beffc789aa",
+      "idl_account_count": 5,
+      "zero_argument_bytes": 9,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3362
+    },
+    {
+      "instruction": "update_fee_config",
+      "discriminator_hex": "68b867f258976b14",
+      "idl_account_count": 5,
+      "zero_argument_bytes": 28,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3401
+    },
+    {
+      "instruction": "update_fee_shares",
+      "discriminator_hex": "bd0d8863bba4ed23",
+      "idl_account_count": 18,
+      "zero_argument_bytes": 4,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 7305
+    },
+    {
+      "instruction": "update_fee_shares_v2",
+      "discriminator_hex": "6ffb31064e4e6a12",
+      "idl_account_count": 19,
+      "zero_argument_bytes": 4,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 7612
+    },
+    {
+      "instruction": "update_stable_fee_config",
+      "discriminator_hex": "6ba964b3869b92dd",
+      "idl_account_count": 5,
+      "zero_argument_bytes": 4,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3395
+    },
+    {
+      "instruction": "upsert_fee_tiers",
+      "discriminator_hex": "e317960c4d565e04",
+      "idl_account_count": 5,
+      "zero_argument_bytes": 5,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3397
+    },
+    {
+      "instruction": "upsert_stable_fee_tiers",
+      "discriminator_hex": "b5a0a2fc4a4ce0dd",
+      "idl_account_count": 5,
+      "zero_argument_bytes": 5,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 3397
+    },
+    {
+      "instruction": "withdraw",
+      "discriminator_hex": "b712469c946da122",
+      "idl_account_count": 9,
+      "zero_argument_bytes": 0,
+      "signature_verified": true,
+      "candidate_error": "TransactionErrorInstructionError((0, Tagged(InstructionErrorCustom(6000))))",
+      "unsupported_body_reached": true,
+      "compute_units": 4578
+    }
+  ]
+}

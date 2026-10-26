@@ -1,0 +1,1 @@
+{"receipt": "/Users/shawwalters/Documents/Codex/2026-10-24/pumpfun-source/work/import-runtime-verification/lab/analysis/pump_fun/admin-signed-surfpool.json", "cases": 6, "successful_writes": ["pump_authorized_write", "pump_amm_authorized_write", "pump_fees_authorized_write"]}

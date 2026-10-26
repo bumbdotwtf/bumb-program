@@ -1,0 +1,18 @@
+=======BEGIN SECURITY.TXT V1=======
+name
+Donate.gg Donation Relay
+project_url
+https://donate.gg
+contacts
+email:security@donate.gg,twitter:@donatedotgg,link:https://www.donate.gg/contact
+policy
+https://donate.gg/contract-security-policy
+preferred_languages
+en
+source_code
+https://github.com/CherryDevelopmentOrg/daas
+auditors
+@HalbornSecurity
+acknowledgements
+Thanks to the following people for their contributions to the project: @teapotbits, @BuiltByFrancis, @darkmodeprince
+=======END SECURITY.TXT V1=======

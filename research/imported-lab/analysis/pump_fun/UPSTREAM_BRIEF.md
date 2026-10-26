@@ -1,0 +1,11 @@
+# Pump.fun official docs: pinned project brief
+
+Upstream: `pump-fun/pump-public-docs` at `639b87fb45c3adeffa6f7c4a1bf0cb85e392bf22`, linked as `third_party/pump-public-docs`. This is an interface/documentation repository, not the on-chain Rust source or a reproducible build of a deployed executable.
+
+1. **What it is:** Official documentation and Anchor IDLs for Pump bonding curves, PumpSwap (Pump AMM), and Pump Fees.
+2. **Shape:** Three `idl/*.json` files and TypeScript mirrors; `docs/` covers creation, trade versions, migration, fee sweeps, dynamic fees, and creator/holder rewards. The IDLs name 56 Pump, 38 Pump AMM, and 31 Pump Fees instructions, respectively; these are client declarations pending current-binary dispatch checks.
+3. **How it runs:** This repo has no package manifest or executable test/build command. Its README points to separate `@pump-fun/pump-sdk` 4.1.0, `@pump-fun/pump-swap-sdk` 2.1.0, and `pump-rust-client` 0.4.1; none is proof of the deployed program source.
+4. **Active frontier:** The latest commit updates depth-two pump-coin quote chains and refreshes Pump/Fee IDLs. Recent commits add v3/v2 trades, multi-hop swaps, synthetic migration, fee sweeps, and negative virtual quote reserves. Open issues request deployed-executable provenance and report undocumented discriminators; they are third-party reports, not maintainer confirmations.
+5. **House rules and discrepancies:** No `AGENTS.md`, package manifest, or root license was found. Link the whole upstream as a pinned submodule; keep IDL declarations distinct from executable observations. The docs contain rollout-time statements, so check the pinned current ProgramData before attributing any handler or behavior to it.
+
+Gaps after local intake: ProgramData and all 125 direct selector wrappers are pinned; synthetic-authority config writes, a fresh regular Pump `create_v2`→v3 trade path, a captured PumpSwap v2 round trip, and synthetic Pump Fees `withdraw` run offline with signatures. No deployment-linked Rust source, legitimate fee accrual, migration, full fee/quote behavior, full reversal, or security review is established. The source and reachability of optional external Mayhem accounts remain outside this three-program initial scope.

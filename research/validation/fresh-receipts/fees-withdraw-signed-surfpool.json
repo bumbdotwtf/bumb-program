@@ -1,0 +1,416 @@
+{
+  "environment": "offline Surfpool :memory: loopback",
+  "program": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+  "payload_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "loaded_elf_extent": 873256,
+  "source_mint_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+  "source_token_layout_sha256": "e0903ccc3df8c35916c9aa54a3e3a4653fbc2c0a271b8d2c2ca9a672f9f53d58",
+  "synthetic_user": "823Msawk8dWX1cURDovT6ctcGZ1mxrnHSH2DuiAuca9y",
+  "accounts": {
+    "referral_vault": "GDg65thfVjaFaCDs5iFGioodGdhacUjcuFqrJiXGbarY",
+    "vault_ata": "HRDBFyuhMyLwuxnuhCnTJ8jhDvuucFn6DskV1cccJvSE",
+    "user_ata": "BmrW14Rgg1qTeRa6CoaeivjN67QXTx6UqUAEppsPQZ1Y",
+    "outsider_ata": "4EoaWNHmbrfVRow58PzLbHPaJqCKrmqFMCFRxYL2uyPe",
+    "quote_mint": "So11111111111111111111111111111111111111112"
+  },
+  "initial_vault_raw": 1000000,
+  "cases": [
+    {
+      "label": "unsigned_user_rejected",
+      "signature": "2cW4vBJioEp6tRC4yZuXjtZHpgatA22d4f9AAnf4Tg7fwJTB94nSGQxWhroczuEuHxi5jQ2WQubwAAsHexwSeNyD",
+      "transaction_base64": "AVChwT6id1r+qYCf4JA9gjk4BbZuK9J/KHgsI2orDZgYMPR0RacNhPR5ru6Pj9S3J0FKUx86TF1GgVwke+qxiwgBAAUKjUq+B0/vkinTtEHf6k+Y+AWxorOgauZFgQ7+znf9UERoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRKASZQvJlchlkEPXDm2DJLrbG6g6aYhs4j4zVBTfBZ0X4h54XJ9q2lwnhZ9VqR7Y9TKmrX5l6Wk0LkJeylSMTp3z7rLb2AJ27pogF2CmJk0cz1+vdRFOjdIX9/O9RGYFowAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAEG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQw1/6kFWo5Wjaj3vAdWFSdM8ckspB9AAJxRaqQUwnxws688WEEx3ad0db1da9GL0LABxSBoSABCmyElFSsUIgsGhoWdOMgKlyFIGEFpF+C/j8oVfkZPmMz9D/qd+EfcEQEICQEDBgQCBwUJCAi3EkaclG2hIg==",
+      "simulation_error": {
+        "InstructionError": [
+          0,
+          {
+            "Custom": 3010
+          }
+        ]
+      },
+      "committed_error": {
+        "InstructionError": [
+          0,
+          {
+            "Custom": 3010
+          }
+        ]
+      },
+      "units_consumed": 4120,
+      "payer_lamports_delta": -5000,
+      "before": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "after": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "log_tail": [
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [1]",
+        "Program log: Instruction: Withdraw",
+        "Program log: AnchorError caused by account: user. Error Code: AccountNotSigner. Error Number: 3010. Error Message: The given account did not sign.",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 4120 of 200000 compute units",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ failed: custom program error: 0xbc2"
+      ]
+    },
+    {
+      "label": "wrong_user_rejected",
+      "signature": "5Ck39gfKkeRGi8XHw7hmyVssnoLjCtYfJYmXX9N1q5iLKR5s6izaRWid4f9tjn2M4wxKvK7vA6PMLh97fFXhtwHV",
+      "transaction_base64": "AdIxoRmklDaJL9U5GFTShnIzfm+b7IeDv1pM5aHIB0brJ9L9wV3Flb4eEI+Kt6zB4fiAmEJRb0M3e3Il6s0+RwwBAAUJjUq+B0/vkinTtEHf6k+Y+AWxorOgauZFgQ7+znf9UESgEmULyZXIZZBD1w5tgyS62xuoOmmIbOI+M1QU3wWdF+IeeFyfatpcJ4WfVake2PUypq1+ZelpNC5CXspUjE6d8+6y29gCdu6aIBdgpiZNHM9fr3URTo3SF/fzvURmBaMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKkMNf+pBVqOVo2o97wHVhUnTPHJLKQfQACcUWqkFMJ8cLOvPFhBMd2ndHW9XWvRi9CwAcUgaEgAQpshJRUrFCILBoaFnTjICpchSBhBaRfgv4/KFX5GT5jM/Q/6nfhH29oBBwkAAgUDAQYECAcItxJGnJRtoSI=",
+      "simulation_error": {
+        "InstructionError": [
+          0,
+          {
+            "Custom": 2006
+          }
+        ]
+      },
+      "committed_error": {
+        "InstructionError": [
+          0,
+          {
+            "Custom": 2006
+          }
+        ]
+      },
+      "units_consumed": 12436,
+      "payer_lamports_delta": -5000,
+      "before": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "after": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "log_tail": [
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [1]",
+        "Program log: Instruction: Withdraw",
+        "Program log: AnchorError caused by account: referral_vault. Error Code: ConstraintSeeds. Error Number: 2006. Error Message: A seeds constraint was violated.",
+        "Program log: Left:",
+        "Program log: GDg65thfVjaFaCDs5iFGioodGdhacUjcuFqrJiXGbarY",
+        "Program log: Right:",
+        "Program log: 9HjoFRTwiUq7PKiWx9rvSVR1hWq3EC9uNZ86pE2HyuwN",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 12436 of 200000 compute units",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ failed: custom program error: 0x7d6"
+      ]
+    },
+    {
+      "label": "redirected_recipient_rejected",
+      "signature": "23W8beE3ZFmQP2Ju8UHG8CSwaw6mLixByCg3JXsLhUvDMm1UzDNuVFmXqhsE7gGcik42ZCBfDJzGBoABGiCXxqF8",
+      "transaction_base64": "ATQswwnP3CF33faMZab/SuyP2VFQ7QXVdjYxHTQYBxrHSSQqmvfP2I11yfffHkJPs/AtFiTk7m+o0W9mRY7yWAsBAAUJaEYOvvOxOBZOx/2GEOlYAN91mPcPLy6n21FyrHTrwUQwHEbgoGwZc9aFxon7ypxhHK87wTTz6I9iyziHPsnwUeIeeFyfatpcJ4WfVake2PUypq1+ZelpNC5CXspUjE6d8+6y29gCdu6aIBdgpiZNHM9fr3URTo3SF/fzvURmBaMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKkMNf+pBVqOVo2o97wHVhUnTPHJLKQfQACcUWqkFMJ8cLOvPFhBMd2ndHW9XWvRi9CwAcUgaEgAQpshJRUrFCILBoaFnTjICpchSBhBaRfgv4/KFX5GT5jM/Q/6nfhH29sBBwkAAgUDAQYECAcItxJGnJRtoSI=",
+      "simulation_error": {
+        "InstructionError": [
+          0,
+          {
+            "Custom": 2015
+          }
+        ]
+      },
+      "committed_error": {
+        "InstructionError": [
+          0,
+          {
+            "Custom": 2015
+          }
+        ]
+      },
+      "units_consumed": 7299,
+      "payer_lamports_delta": -5000,
+      "before": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "after": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "log_tail": [
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [1]",
+        "Program log: Instruction: Withdraw",
+        "Program log: AnchorError occurred. Error Code: ConstraintTokenOwner. Error Number: 2015. Error Message: A token owner constraint was violated.",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 7299 of 200000 compute units",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ failed: custom program error: 0x7df"
+      ]
+    },
+    {
+      "label": "withdraw",
+      "signature": "3WBxGzbhJPHT6d8BhAAWNh4gDqVUegeeZWUsvD4uRLVxhBbue2TUe3MqkBYygnviKuyBMoQAHxA7bqYz5NSt2eME",
+      "transaction_base64": "AX00kcDP7JTfSUgJdAfuSZrCnBLVGI4mqaARGKVKBNFmSr+bgRCE9IEGkU18fwV1W+mGkkQlrsn17LNuJK+R2AEBAAUJaEYOvvOxOBZOx/2GEOlYAN91mPcPLy6n21FyrHTrwUSgEmULyZXIZZBD1w5tgyS62xuoOmmIbOI+M1QU3wWdF+IeeFyfatpcJ4WfVake2PUypq1+ZelpNC5CXspUjE6d8+6y29gCdu6aIBdgpiZNHM9fr3URTo3SF/fzvURmBaMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKkMNf+pBVqOVo2o97wHVhUnTPHJLKQfQACcUWqkFMJ8cLOvPFhBMd2ndHW9XWvRi9CwAcUgaEgAQpshJRUrFCILBoaFnTjICpchSBhBaRfgv4/KFX5GT5jM/Q/6nfhH29wBBwkAAgUDAQYECAcItxJGnJRtoSI=",
+      "simulation_error": null,
+      "committed_error": null,
+      "units_consumed": 24651,
+      "payer_lamports_delta": -5000,
+      "before": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "aaba08e0fa1c53e18c94f0ecd9743727b20a5e1a31ad08201594bf52b795e156",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnUBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "user_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b473251600e2fd8179f9634d119a34706ed76bbc6813c4ea17156158407cc55f",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "after": {
+        "referral_vault": {
+          "lamports": 1000000,
+          "owner": "11111111111111111111111111111111",
+          "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "data_base64": ""
+        },
+        "vault_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "c4d79922bdb1c77e045c42e9b0e5609aeb81cce51c021defdc2d7db2db8c00cb",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAHiHnhcn2raXCeFn1WpHtj1MqatfmXpaTQuQl7KVIxOnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "user_ata": {
+          "lamports": 3039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a440a34c4aa75437314ccfdf9f453b6e9dc9bdcbee884e8f1a4d9bdc0a332f25",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFoRg6+87E4Fk7H/YYQ6VgA33WY9w8vLqfbUXKsdOvBREBCDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 1000000
+        },
+        "outsider_ata": {
+          "lamports": 2039280,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "a5eeccb3d1888d0addbfdbc8dde6696534cc77866a05dcd7f2665679cde24228",
+          "data_base64": "BpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAGNSr4HT++SKdO0Qd/qT5j4BbGis6Bq5kWBDv7Od/1QRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAADwHR8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "token_amount": 0
+        },
+        "quote_mint": {
+          "lamports": 1856514097572,
+          "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "data_sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3",
+          "data_base64": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+        }
+      },
+      "log_tail": [
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [1]",
+        "Program log: Instruction: Withdraw",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 185292 compute units",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+        "Program data: FgmFGqAsR8DOQt1qAAAAAGhGDr7zsTgWTsf9hhDpWADfdZj3Dy8up9tRcqx068FEBpuIV/6rgYT7aH9jRhjANdrEOdwa6ztVmKDwAAAAAAFAQg8AAAAAAA==",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [2]",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 6595 of 182278 compute units",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ success",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 24651 of 200000 compute units",
+        "Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ success"
+      ]
+    }
+  ],
+  "qualification": "Pinned current Pump Fees ELF and captured wrapped-SOL mint/token layout. Referral vault, its WSOL ATA, user ATA, funding and signer are synthetic disposable local accounts. Signed transactions are committed only in offline Surfpool; this does not establish live accrued fees, real user entitlement or full handler behavior. No public RPC or mainnet transaction."
+}

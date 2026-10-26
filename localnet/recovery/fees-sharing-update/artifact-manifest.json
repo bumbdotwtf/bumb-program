@@ -1,0 +1,17 @@
+{
+  "README.md": "94d960433a24dd83a2eba367c137002e5f7f923ec441846041070a81e8b873f3",
+  "build-comparison.json": "db3df152789b41de78efac5e2970adcb54036515a1a214656f11636f355efdbe",
+  "build.log": "f1b04577b080b0df9ba2839bc4bca2f09812af1be24995a28728fe5c674a1ab6",
+  "crate/Cargo.lock": "e2c9a1b5b0960f33604a93084a466a17337ccd0197eec557607e2c6e04bfe560",
+  "crate/Cargo.toml": "42b64cbeae855c4028e44802fedc9836efe773d3cabfaab4936f756d7c9ae7c9",
+  "crate/src/errors.rs": "bd1377abfcb46707a8d5b39c5068bf534d4a507df3dbdd6474236fb2887d6bde",
+  "crate/src/lib.rs": "592111ca9314f831c5a2bdd4879c4a24cd38bad68b94ed48dab9f3db518ff63a",
+  "crate/src/pump_global.rs": "3f4582859b76e9d6a2b5a43bb87d89192eb27878154adcb776f2664bf36099d3",
+  "crate/src/types.rs": "80cf76097f88ae0c51031dbf9fe8392704cd75b9ea4b3e99fa428f946ecb6a4c",
+  "differential.json.gz": "140a468c620e06cae3bf0f12b60e7f30a7bdff1157b2560541721c708b6905c4",
+  "pump_fees_candidate.so": "2ffc407f61e3d9a2074f3e20ecd5b128bb53ea83cad5c490de190a2550058fdf",
+  "source-manifest.json": "65a50e8c8c23d67e031b4c92bb6ad25ba7696efea8a8273246092160095e6bf4",
+  "surfpool-fixtures.json.gz": "8fdcf916d5b84395411d85997b116fdbe423ad357d60cc71ccb0a6748e0e4877",
+  "surfpool-summary.json": "6961e91cad0a9602d50ab5542a45a67903c40aa35c98823084293519e156f0e6",
+  "surfpool-transactions.json.gz": "d66c0652836584f14aa0f10b70a44593d9adac8193303ccf6db11ef6a1a851c3"
+}

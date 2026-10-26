@@ -1,0 +1,113 @@
+{
+  "surfpool_version": "surfpool 1.6.1",
+  "rpc": "http://127.0.0.1:18999",
+  "offline": true,
+  "programs": [
+    {
+      "name": "mayhem",
+      "program": "MAyhSmzXzV1pTf7LsNkrNwkWKTo4ougAJ1PPg47MD4e",
+      "elf_bytes": 775416,
+      "elf_sha256": "9af9e3b1cbc9d89340af4d9d46e4c88d3dc2fc67e0090f9370047d97532ff09d",
+      "capture_sha256": "a87fa9f866272514e6acb852b668c4a08aeb173d56c883039991d114d1199bdb"
+    },
+    {
+      "name": "pump",
+      "program": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "elf_bytes": 1934800,
+      "elf_sha256": "05249b60f8ddf02a53d0f8a43980fde40cce33f73526355b4ef08e292279819f",
+      "capture_sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d"
+    },
+    {
+      "name": "pump_amm",
+      "program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "elf_bytes": 1268504,
+      "elf_sha256": "51a5f6a7fb5a812de7686e593ce6159f6ee59b15771a3d5d37ab661c46d64586",
+      "capture_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7"
+    },
+    {
+      "name": "pump_fees",
+      "program": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "elf_bytes": 873256,
+      "elf_sha256": "5b6ceda57863f0dcc3e0e3623052f8342c2c81883379699e71d7ed5383cb3dcf",
+      "capture_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e"
+    },
+    {
+      "name": "associated_token",
+      "program": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+      "elf_bytes": 105032,
+      "elf_sha256": "6804554e69fd3a58caa191dc4a58f4c67223d30ca28ab8987f39fc18d2f7374d",
+      "capture_sha256": "6804554e69fd3a58caa191dc4a58f4c67223d30ca28ab8987f39fc18d2f7374d"
+    },
+    {
+      "name": "donation_relay",
+      "program": "RLAYHr9TRFcKB2ubYQhspcnXiaGpaVzNQvHytt47RZu",
+      "elf_bytes": 818280,
+      "elf_sha256": "56d81ec64a0ba070d3d23f3c1547b31d659e85716dfa2198ec4b0ce6cd355333",
+      "capture_sha256": "367f07a62e3f74d358187d175cf3228848e81a56c781a9a75b9df7fed1268563"
+    },
+    {
+      "name": "spl_token",
+      "program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "elf_bytes": 108600,
+      "elf_sha256": "8190d3f7ceb6cb7a7a8d8924bff89f9f611e15ce1f806f2b6237f3311a98f697",
+      "capture_sha256": "8190d3f7ceb6cb7a7a8d8924bff89f9f611e15ce1f806f2b6237f3311a98f697"
+    },
+    {
+      "name": "spl_token_2022",
+      "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "elf_bytes": 611056,
+      "elf_sha256": "3dde54d202caa2d10514fd58a154df5f26f07643f9f5fd0402ff08084f0cb954",
+      "capture_sha256": "15a2e615a42e20f31714bbaaee43002ae6f1cda2e8d7118243117ab3c1342e2d"
+    },
+    {
+      "name": "token_metadata",
+      "program": "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",
+      "elf_bytes": 707448,
+      "elf_sha256": "99ee61a5159e15a359b01298b52c9f9f912eb19e47bdfe83987c16de52a4b1ff",
+      "capture_sha256": "31f0a627dba051a938de650464e55cc5397a4be0fd496929c1f9cf02fe5e9011"
+    }
+  ],
+  "account_fixtures": [
+    {
+      "address": "4wTV1YmiEkRvAtNtsSGPtUrqRYQMe5SKy2uB4Jjaxnjf",
+      "sha256": "dd2b9fa23e2e80d35a0f33329db5c7deb3e88d5ed73bceb1ffa397225f437f8b"
+    },
+    {
+      "address": "ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw",
+      "sha256": "a698009a419d0b8c56ff257626d15cba305c4989a602fa86e65ca252b2c200f4"
+    },
+    {
+      "address": "CHqnuTkj6sXDFknM652aEFPECZh9qVsBXWkhPohmV9dA",
+      "sha256": "2e6a931096ef8be0e5dfc3f826821384c3e6b9e85c8b3c85a24fbfc5bb273307"
+    },
+    {
+      "address": "GseMAnNDvntR5uFePZ51yZBXzNSn7GdFPkfHwfr6d77J",
+      "sha256": "c9ebd5d7fbfa4503b31688d576c42b4497a1b61aa2fdb671f6008f264177b28a"
+    },
+    {
+      "address": "7LSsEoJGhLeZzGvDofTdNg7M3JttxQqGWNLo6vWMpump",
+      "sha256": "14f48a1df1e0cfb0cec9404d21649fc5f4f3ad95b56cf8a6890e98d13ad9e2ec"
+    },
+    {
+      "address": "So11111111111111111111111111111111111111112",
+      "sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+    },
+    {
+      "address": "5jMpkf4JF4noHftLgNKyPNh6roVfPSGSjuEk3U4eLKRa",
+      "sha256": "1b5158fc1913e14bc8955e1d2a8227a8f1b8bc9d9c6a55c8cc3514cc757a7391"
+    },
+    {
+      "address": "43DVcZR4kQFjh4Xm2i3DcneRxNjZp7HMud8yDrJWrDr8",
+      "sha256": "e0903ccc3df8c35916c9aa54a3e3a4653fbc2c0a271b8d2c2ca9a672f9f53d58"
+    },
+    {
+      "address": "5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx",
+      "sha256": "d8706882a217e82af619b754e37beedf9338a25787ebec717e7d69d2cf347c9d"
+    },
+    {
+      "address": "HjQjngTDqoHE6aaGhUqfz9aQ7WZcBRjy5xB8PScLSr8i",
+      "sha256": "ab5921de7cd3708918bf662740448d503c0c63b9eaae93350f823781694def78"
+    }
+  ],
+  "scope": "Captured original ELFs and dependency ELFs under legacy loader, captured configuration and one AMM pool; startup and byte readback only. No transactions, reconstruction identity, or complete chain snapshot established."
+}

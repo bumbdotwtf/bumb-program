@@ -1,0 +1,99 @@
+{
+  "target": "pump-fun-fees",
+  "reference": {
+    "path": "inputs/pump_fun/pump_fees.so",
+    "whole_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+    "whole_bytes": 948944,
+    "machine": "263",
+    "elf_flags": 0,
+    "entry_point": 660680,
+    "elf_bytes": 873256,
+    "elf_sha256": "5b6ceda57863f0dcc3e0e3623052f8342c2c81883379699e71d7ed5383cb3dcf",
+    "allocation_padding_bytes": 75688,
+    "allocation_padding_all_zero": true,
+    "sections": [
+      {
+        "name": "",
+        "type": "SHT_NULL",
+        "file_offset": 0,
+        "virtual_address": 0,
+        "size": 0,
+        "alignment": 0,
+        "sha256": null
+      },
+      {
+        "name": ".text",
+        "type": "SHT_PROGBITS",
+        "file_offset": 288,
+        "virtual_address": 288,
+        "size": 799648,
+        "alignment": 8,
+        "sha256": "904fe7647fca9b1d34bee473db70d08e11edb4e758f4bb171dc96acffb253735"
+      },
+      {
+        "name": ".rodata",
+        "type": "SHT_PROGBITS",
+        "file_offset": 799936,
+        "virtual_address": 799936,
+        "size": 21079,
+        "alignment": 8,
+        "sha256": "4f5fa138930a628550d7c6c28e419c723c8107c5ab61a3f655dbb8f06d383a85"
+      },
+      {
+        "name": ".data.rel.ro",
+        "type": "SHT_PROGBITS",
+        "file_offset": 821016,
+        "virtual_address": 821016,
+        "size": 6744,
+        "alignment": 8,
+        "sha256": "45050d1c092c3f07566126adaf9a327120f65a3e31c8cde7028a60520eac473b"
+      },
+      {
+        "name": ".dynamic",
+        "type": "SHT_DYNAMIC",
+        "file_offset": 827760,
+        "virtual_address": 827760,
+        "size": 176,
+        "alignment": 8,
+        "sha256": "00f60a0f8a3c928177b6d64d79dc346cb3b578befc4b527b0248c9c9e9e104f4"
+      },
+      {
+        "name": ".dynsym",
+        "type": "SHT_DYNSYM",
+        "file_offset": 827936,
+        "virtual_address": 827936,
+        "size": 432,
+        "alignment": 8,
+        "sha256": "e0aaf7862cc94e6583345a04e8dcdc8257088dfff00d988f93d15f7110a665bd"
+      },
+      {
+        "name": ".dynstr",
+        "type": "SHT_STRTAB",
+        "file_offset": 828368,
+        "virtual_address": 828368,
+        "size": 268,
+        "alignment": 1,
+        "sha256": "f6c7979eed325478827666e8b89fe460cea5fd8af09164e1efa798dfae5f967b"
+      },
+      {
+        "name": ".rel.dyn",
+        "type": "SHT_REL",
+        "file_offset": 828640,
+        "virtual_address": 828640,
+        "size": 43968,
+        "alignment": 8,
+        "sha256": "9ea1239da66f16675f8ea84f73005048651c5c21eb3456de4035b459747391dc"
+      },
+      {
+        "name": ".shstrtab",
+        "type": "SHT_STRTAB",
+        "file_offset": 872608,
+        "virtual_address": 0,
+        "size": 72,
+        "alignment": 1,
+        "sha256": "d981263d501f120e0990544791b6647d652caea4613d7fe87ca90431c71f4911"
+      }
+    ]
+  },
+  "source_reconstruction_status": "no candidate supplied"
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Normally signed offline Surfpool social creation and SOL claiming with synthetic accounts. Errors, owner, lamports and data compared except SocialFeePda.last_claimed; timestamp-sensitive logs retained, not compared. No complete source or byte identity claim.",
+  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "10372f4eadf92ba52d838d33df03f30b1e84365fed02f77370ffc6132fab6837",
+  "surfpool_sha256": "76b3ab8da78f69e75ba0d4092c35296518ddc4ce83fa58de34e2586092055ef3",
+  "fixture_script_sha256": "71156c520f29b0ac3080ad276cfa118f99246c94ad5aaebf4342e3073fd72c2e",
+  "runner_sha256": "d1db5e16737e6b7015aa7928ef2293d1fedb8bc309a72c18bc5c65d2f6d1b814",
+  "creation_fixture_sha256": "39a07ad4cd25620dd50f3961f34d6bc745fe3006800ea745dd1eb4427d9eace9",
+  "cases": 16,
+  "signed_transactions": 32,
+  "mismatches": []
+}

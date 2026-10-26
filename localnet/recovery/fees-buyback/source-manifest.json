@@ -1,0 +1,6 @@
+{
+  "crate/Cargo.lock": "e2c9a1b5b0960f33604a93084a466a17337ccd0197eec557607e2c6e04bfe560",
+  "crate/Cargo.toml": "42b64cbeae855c4028e44802fedc9836efe773d3cabfaab4936f756d7c9ae7c9",
+  "crate/src/errors.rs": "bd1377abfcb46707a8d5b39c5068bf534d4a507df3dbdd6474236fb2887d6bde",
+  "crate/src/lib.rs": "d6c579c4ccea4fd9e6f2d11938a143ed626f1b5a751e0f342f99f702f73b19e1"
+}

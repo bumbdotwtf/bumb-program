@@ -1,0 +1,318 @@
+{
+  "repository": "https://github.com/NubsCarson/solana-program-research-lab",
+  "visibility_at_import": "PRIVATE",
+  "commit": "13a7f937ace1041d5d3116472335b6c20bedf5e1",
+  "selection": "All pump_fun analysis, inputs, scripts; pump-fun source reconstruction and 31-handler candidate; transitive Python helpers and tool provenance. daos.fun pump_xyk is a different program and excluded.",
+  "files": [
+    {
+      "path": "analysis/pump_fun/README.md",
+      "bytes": 8370,
+      "sha256": "d08d8489a2aebacc907bf5ed69e9f15562b3179c5158d010ba878afb23358d61"
+    },
+    {
+      "path": "analysis/pump_fun/UPSTREAM_BRIEF.md",
+      "bytes": 2247,
+      "sha256": "08a41aaa7b4d976733b9128ac571a8220692d6cc818acb8b339c8d3e02feab4c"
+    },
+    {
+      "path": "analysis/pump_fun/admin-signed-surfpool.json",
+      "bytes": 58414,
+      "sha256": "979c7d19de35bc844860606a91be2035803f092e31aa5e24ae4d687c09cc274b"
+    },
+    {
+      "path": "analysis/pump_fun/amm-buy-v2-signed-surfpool.json",
+      "bytes": 121443,
+      "sha256": "9f3ece5e6dfb4930f234f503bbe69dc2f0aaf293e99dcff6b03807f9dc9eeea1"
+    },
+    {
+      "path": "analysis/pump_fun/amm-v2-trade-fixture.json",
+      "bytes": 10317,
+      "sha256": "2e775505852caf55203c826ee08b9341aa275f52f59a933c4fb0740535ee316f"
+    },
+    {
+      "path": "analysis/pump_fun/config-snapshot.json",
+      "bytes": 5247,
+      "sha256": "17b886a6b4aa7fdc89f2fca9a1b67b318d33998794da59fe4df1fe89ca70bd27"
+    },
+    {
+      "path": "analysis/pump_fun/curve-completion-signed-surfpool.json",
+      "bytes": 51582,
+      "sha256": "7948739042415e34b134ffe3bcbbb3ddc4f900847426a51f7ea6daae40d755d8"
+    },
+    {
+      "path": "analysis/pump_fun/curve-create-v2-signed-surfpool.json",
+      "bytes": 6052,
+      "sha256": "3661a9f0819ea8e206137d54e4bd450ef9fee7fc8c63d96f25a8cd5149f34754"
+    },
+    {
+      "path": "analysis/pump_fun/curve-fee-config-snapshot.json",
+      "bytes": 6878,
+      "sha256": "f3bbe5c2c85839706aff8a41995f2ee770de42bfe2e6872bb9593305ef687279"
+    },
+    {
+      "path": "analysis/pump_fun/curve-fresh-trades-v3-signed-surfpool.json",
+      "bytes": 125196,
+      "sha256": "54d69dd4f11a61cc6cea3076e3e89fd4aa31ea6ff835f8ea316646a7b1642920"
+    },
+    {
+      "path": "analysis/pump_fun/curve-migrate-v2-signed-surfpool.json",
+      "bytes": 34848,
+      "sha256": "b4894531409f1cb016c2993a061c99f4316140659f9cffb25cae0875b189dbfc"
+    },
+    {
+      "path": "analysis/pump_fun/dispatch-map.json",
+      "bytes": 56546,
+      "sha256": "8ea9cee0fb3ae9be9b21323b6cadf049b6d5a90430c7728da732a610a599faaf"
+    },
+    {
+      "path": "analysis/pump_fun/elf-inventory.json",
+      "bytes": 17305,
+      "sha256": "d8fa4280f201387902c05ccf2929baf404c95795a362a40dd0bbfadb692aa715"
+    },
+    {
+      "path": "analysis/pump_fun/fees-withdraw-signed-surfpool.json",
+      "bytes": 25378,
+      "sha256": "8d963f29ced584116ded4a7b85a11102fe1d57a3082125c80c634d734ebfa7dd"
+    },
+    {
+      "path": "analysis/pump_fun/offline-verification.json",
+      "bytes": 2306,
+      "sha256": "752abc1efe2ed80a54905aa082f5d3300c36606aec92f6c386dc79ba94020981"
+    },
+    {
+      "path": "analysis/pump_fun/post-migration-amm-v2-signed-surfpool.json",
+      "bytes": 128890,
+      "sha256": "df902e5b265baae98cb08d5b1b9929034d57b2cb28441600d19f08fad21668cb"
+    },
+    {
+      "path": "analysis/pump_fun/program-manifest.json",
+      "bytes": 3135,
+      "sha256": "082caa6a9e72554ce0163917d9ccd6e990734b8841f6c84b0a23c132f64e7b22"
+    },
+    {
+      "path": "analysis/pump_fun/pump.asm",
+      "bytes": 13323720,
+      "sha256": "d4a29dc6921d25d9d2e8e7a0f8b4d68027005f2ab74a8151d5ac8a8ab575ba0d"
+    },
+    {
+      "path": "analysis/pump_fun/pump_amm.asm",
+      "bytes": 8595980,
+      "sha256": "cb88bbd7146fc0d0994dab3684a8aa479ce88616452d0587624067eba5693a28"
+    },
+    {
+      "path": "analysis/pump_fun/pump_fees.asm",
+      "bytes": 5916639,
+      "sha256": "9deb0c385c8229bb805f978995a201378ce1cbc100ca136730c172247de929ff"
+    },
+    {
+      "path": "analysis/pump_fun/sdk-migration-account-provenance.json",
+      "bytes": 1418,
+      "sha256": "867b10bcf1dba867eb2e2b4485954be84c59ab9407f4d95e4c66d3e02ae29c02"
+    },
+    {
+      "path": "analysis/source_reconstruction/pump-fun-amm-baseline.json",
+      "bytes": 2926,
+      "sha256": "b68a4381c290f2ec7c7d80707fd0a5936320ab5699708a94a9927befb5cf83da"
+    },
+    {
+      "path": "analysis/source_reconstruction/pump-fun-exact-build-feasibility.md",
+      "bytes": 3739,
+      "sha256": "67b1400f41deed6f7583a3f626b6f3e08a0cad01d6d937800a5e5f846c62b934"
+    },
+    {
+      "path": "analysis/source_reconstruction/pump-fun-fees-baseline.json",
+      "bytes": 2909,
+      "sha256": "dbc4017ee7cb8c2748444f5a8f74aca4932dfe8d90ac9cca082365d8d2c6d396"
+    },
+    {
+      "path": "analysis/source_reconstruction/pump-fun-fees-candidate-compare.json",
+      "bytes": 7595,
+      "sha256": "5ac3e5ae839778fb260880bb73696f80e17727e7ca75e3d375a5a77d639e308e"
+    },
+    {
+      "path": "analysis/source_reconstruction/pump-fun-pump-baseline.json",
+      "bytes": 2925,
+      "sha256": "56fa7a71e64a6be73ffee5f416b5907d5f50c92db052c70f5c5452423291d476"
+    },
+    {
+      "path": "analysis/source_reconstruction/pump-fun-source-match-status.json",
+      "bytes": 2573,
+      "sha256": "096102243d133ac1072803d1935610c1af65683961beee3b24a4371e5eddb223"
+    },
+    {
+      "path": "evidence/tool-downloads.json",
+      "bytes": 325,
+      "sha256": "75114b3d23cae6f039381329355d398844750eee4dcb6f5f20226ecfd9caecc6"
+    },
+    {
+      "path": "inputs/pump_fun/pump.so",
+      "bytes": 10485715,
+      "sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d"
+    },
+    {
+      "path": "inputs/pump_fun/pump_amm.so",
+      "bytes": 10485715,
+      "sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7"
+    },
+    {
+      "path": "inputs/pump_fun/pump_fees.so",
+      "bytes": 948944,
+      "sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/Cargo.lock",
+      "bytes": 48362,
+      "sha256": "dbdf2cd0e685911ccdc4fbda9b8260f6613d0af5f0b8f51fa5cb89206377b91d"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/Cargo.toml",
+      "bytes": 455,
+      "sha256": "93af3bb0e4474f6364b633fcf28840913db0518e2ef14366fb3237dcc3f090bb"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/README.md",
+      "bytes": 1146,
+      "sha256": "91177641db8fc080d92714431851a80aae4c0134b6ae0e04059e76f2c8c94d63"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/build-reproducibility.json",
+      "bytes": 2158,
+      "sha256": "1b5e7e520e94e06b74ea439ea8d22e556cf9ba9a2148e4079f51f91ef89ccde1"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/build_reproduce.py",
+      "bytes": 4468,
+      "sha256": "33939b1c0ce163e1bc2a692fcfc8966e2925e18558adfedc929abc7cce35c7e3"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/generate.py",
+      "bytes": 5503,
+      "sha256": "530d0e9482a514e1a561a85e24a6bda9517f9802a348c2c3d07d021301d455ea"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/interface-verification.json",
+      "bytes": 12104,
+      "sha256": "2920d84dcb6aa6f1cf65e9093e009cee2f23ec702ab517d92c0f6bf416da4f9f"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/src/contexts.rs",
+      "bytes": 23396,
+      "sha256": "9055086947318d9b074b3e779c2d9743a480aee7692a09bef89617af1898456b"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/src/lib.rs",
+      "bytes": 6500,
+      "sha256": "125177ecf9a149d25ce2ecd1faadc04146f93d6254b0bbaaa105af8d769ffe21"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/src/types.rs",
+      "bytes": 611,
+      "sha256": "9424efe4abcda7c1e05c5f867fcd2ee90ceaf07b02a61acd41e3220755977f87"
+    },
+    {
+      "path": "reconstruction/pump-fun-fees-candidate/verify_interface.py",
+      "bytes": 4415,
+      "sha256": "31de4dedf5b904240270cb0b9be25110e7e9f27324997c6952bb0f43b7519f99"
+    },
+    {
+      "path": "scripts/pump_fun_admin_surfpool.py",
+      "bytes": 11538,
+      "sha256": "c2846da125e3d8490ed87d3a550f68d6d649b4a03296c942c2d9500a3d780750"
+    },
+    {
+      "path": "scripts/pump_fun_admin_surfpool_verify.py",
+      "bytes": 4214,
+      "sha256": "a6c6757d9921f261258ce533ac9c48a87de23866ffcbce5941754e4989330591"
+    },
+    {
+      "path": "scripts/pump_fun_amm_buy_v2_surfpool.py",
+      "bytes": 14049,
+      "sha256": "8aa5945aca18992689819e608c5a2096567545702653aa98769d0b2a6ceb5150"
+    },
+    {
+      "path": "scripts/pump_fun_amm_v2_surfpool_verify.py",
+      "bytes": 5316,
+      "sha256": "25f1c108b4cf8ecd846143d55d8c56636ba8aeff8e76383c8e025294c556f497"
+    },
+    {
+      "path": "scripts/pump_fun_capture.py",
+      "bytes": 5607,
+      "sha256": "b4ef378dd464fbf061c8014ae0c4183fc2248dca79039d8b3d35d30a5317911d"
+    },
+    {
+      "path": "scripts/pump_fun_capture_amm_fixture.py",
+      "bytes": 5291,
+      "sha256": "5e4edf9f41d401e65b31b24dd23f7c50633d33fbe403247a476ac48ddc2091f5"
+    },
+    {
+      "path": "scripts/pump_fun_capture_configs.py",
+      "bytes": 3285,
+      "sha256": "ee72ca28a9d5df79dbcf615c98ca00455015bf9f9e3f5c252cc7ea80d2dd5565"
+    },
+    {
+      "path": "scripts/pump_fun_capture_curve_fee_config.py",
+      "bytes": 3143,
+      "sha256": "5be3f040d1a2a78fa7cd40931df933d1118a1f301ad057e27b1e891ad57c82aa"
+    },
+    {
+      "path": "scripts/pump_fun_curve_create_v2_surfpool.py",
+      "bytes": 34750,
+      "sha256": "6fe598948a1bff49e59bb3707e390db87be7926dcfe9a47a817836a830740537"
+    },
+    {
+      "path": "scripts/pump_fun_curve_fresh_surfpool_verify.py",
+      "bytes": 7755,
+      "sha256": "2cd96e90112561bd135cf29ea8ad89174a70d0a440c3def6d400335d620a34e7"
+    },
+    {
+      "path": "scripts/pump_fun_curve_migration_surfpool_verify.py",
+      "bytes": 8407,
+      "sha256": "7a883145824a27b19c0cb862af6ee374f36ab4217eaa043d66d738e242b43b66"
+    },
+    {
+      "path": "scripts/pump_fun_dispatch_map.py",
+      "bytes": 6375,
+      "sha256": "7666fe8b047bdecaee86dec20d035b420f4cbb6a20fc319e029529d9e2eb07c0"
+    },
+    {
+      "path": "scripts/pump_fun_fees_withdraw_surfpool.py",
+      "bytes": 10833,
+      "sha256": "57fd5499061e716d60aeac0f09026852d2354cde1155ae82c480a307d4b6361f"
+    },
+    {
+      "path": "scripts/pump_fun_fees_withdraw_surfpool_verify.py",
+      "bytes": 4024,
+      "sha256": "5f87e406ba1080f098128661e09c3cd7d379b7116ba11ec3de8e1722e7fa026a"
+    },
+    {
+      "path": "scripts/pump_fun_inventory.py",
+      "bytes": 4602,
+      "sha256": "b9995839d23420b700c41abe896547db771474e0cc05873c79c0c4fa59dd19dc"
+    },
+    {
+      "path": "scripts/pump_fun_post_migration_amm_surfpool_verify.py",
+      "bytes": 6431,
+      "sha256": "97667cf1ff907543d81f1c7b52bc6bd4d01732f547ffbe351a5e783ad6d59f0b"
+    },
+    {
+      "path": "scripts/pump_fun_source_match_status.py",
+      "bytes": 4116,
+      "sha256": "65b04b180bd8332ca248c823c44e462af79e6a3c0d8c60879a3d3e68d928baf3"
+    },
+    {
+      "path": "scripts/pump_fun_verify_offline.py",
+      "bytes": 5556,
+      "sha256": "8406606005da94abd99fb77c43387b7be479f81cead782dd0adf72fbf3623b2b"
+    },
+    {
+      "path": "scripts/source_reconstruction_compare.py",
+      "bytes": 7202,
+      "sha256": "9c0e2c5abc8bd6a0321be001791def8c10d2ae2c1b0d53004bcbf38bb046c303"
+    },
+    {
+      "path": "scripts/svm_lab.py",
+      "bytes": 3590,
+      "sha256": "74e3e1f0ef111e7feff7fb0c5a5a29d8a1d7d40182d06a8776e64b5e1da882d5"
+    }
+  ]
+}

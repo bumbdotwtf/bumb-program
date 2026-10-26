@@ -1,0 +1,665 @@
+{
+  "official_docs_commit": "639b87fb45c3adeffa6f7c4a1bf0cb85e392bf22",
+  "scope": "Exact pinned ProgramData payload sections and lddw-immediate occurrences of official IDL discriminators in .text. A hit is not a verified dispatcher branch or handler behavior; a miss is not proof of absence.",
+  "programs": [
+    {
+      "name": "pump",
+      "program": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "payload_sha256": "7a19affaa2c6187e04a5fe0ea298cee81fa5eb8c24cfcc30d85f615e89f7b02d",
+      "payload_bytes": 10485715,
+      "elf_extent_bytes": 1934800,
+      "allocation_padding_bytes": 8550915,
+      "allocation_padding_all_zero": true,
+      "machine": "263",
+      "flags": 0,
+      "entrypoint": 1404464,
+      "text_virtual_address": 288,
+      "text_bytes": 1792208,
+      "text_sha256": "37cc788bba53d0d90446ea0795463dae60713f14af11902bccd678281f36ec6a",
+      "sections": [
+        {
+          "name": "",
+          "offset": 0,
+          "virtual_address": 0,
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": ".text",
+          "offset": 288,
+          "virtual_address": 288,
+          "size": 1792208,
+          "sha256": "37cc788bba53d0d90446ea0795463dae60713f14af11902bccd678281f36ec6a"
+        },
+        {
+          "name": ".rodata",
+          "offset": 1792496,
+          "virtual_address": 1792496,
+          "size": 32031,
+          "sha256": "ec459a608cc3be03086512704ee6fc24062a5e7b34ff802681173fd003477b67"
+        },
+        {
+          "name": ".data.rel.ro",
+          "offset": 1824528,
+          "virtual_address": 1824528,
+          "size": 10352,
+          "sha256": "0a5cb3b0793264e972318c67074c745747f609efc26cd30f56b74fb26583036e"
+        },
+        {
+          "name": ".dynamic",
+          "offset": 1834880,
+          "virtual_address": 1834880,
+          "size": 176,
+          "sha256": "a08cf965785492195512e442ece49f02dcd230bc06ecd3b4d1b58de91ad5d3b9"
+        },
+        {
+          "name": ".dynsym",
+          "offset": 1835056,
+          "virtual_address": 1835056,
+          "size": 456,
+          "sha256": "5fd1e795a009efae28e5555b1965a396c19352c6e8a60799a62e88e464afc9d4"
+        },
+        {
+          "name": ".dynstr",
+          "offset": 1835512,
+          "virtual_address": 1835512,
+          "size": 288,
+          "sha256": "50ae62e312b3b3d5dc1723204e19c84db5fbb7303cd6ff6c26b0eff5e4705cc7"
+        },
+        {
+          "name": ".rel.dyn",
+          "offset": 1835800,
+          "virtual_address": 1835800,
+          "size": 98352,
+          "sha256": "573c59cc1a9f0b7b5302680fca87280bb49deb43f07c30230752f63a69069d15"
+        },
+        {
+          "name": ".shstrtab",
+          "offset": 1934152,
+          "virtual_address": 0,
+          "size": 72,
+          "sha256": "d981263d501f120e0990544791b6647d652caea4613d7fe87ca90431c71f4911"
+        }
+      ],
+      "idl_instruction_count": 56,
+      "idl_account_types": [
+        "BondingCurve",
+        "FeeConfig",
+        "Global",
+        "GlobalVolumeAccumulator",
+        "QuoteControl",
+        "SharingConfig",
+        "UserVolumeAccumulator"
+      ],
+      "selector_lddw_hit_count": 56,
+      "selector_lddw_hits": {
+        "add_quote_control_mint": [
+          "0x11be78"
+        ],
+        "add_quote_mint": [
+          "0x11b8f8"
+        ],
+        "admin_cto": [
+          "0x11bc78"
+        ],
+        "admin_set_idl_authority": [
+          "0x11bd78"
+        ],
+        "admin_update_token_incentives": [
+          "0x11bc98"
+        ],
+        "buy": [
+          "0x11bb18"
+        ],
+        "buy_exact_quote_in_v2": [
+          "0x11ba18"
+        ],
+        "buy_exact_quote_in_v3": [
+          "0x11ba78"
+        ],
+        "buy_exact_sol_in": [
+          "0x11bb38"
+        ],
+        "buy_v2": [
+          "0x11b9f8"
+        ],
+        "buy_v3": [
+          "0x11ba58"
+        ],
+        "claim_cashback": [
+          "0x11bcd8"
+        ],
+        "claim_cashback_v2": [
+          "0x11bcf8"
+        ],
+        "claim_token_incentives": [
+          "0x11bcb8"
+        ],
+        "close_user_volume_accumulator": [
+          "0x11bd38"
+        ],
+        "collect_creator_fee": [
+          "0x11bbd8"
+        ],
+        "collect_creator_fee_v2": [
+          "0x11bbf8"
+        ],
+        "create": [
+          "0x11b9b8"
+        ],
+        "create_v2": [
+          "0x11b9d8"
+        ],
+        "distribute_creator_fees": [
+          "0x11bdd8"
+        ],
+        "distribute_creator_fees_v2": [
+          "0x11bdf8"
+        ],
+        "distribute_fee_to_holders": [
+          "0x11bc18"
+        ],
+        "extend_account": [
+          "0x11bbb8"
+        ],
+        "get_minimum_distributable_fee": [
+          "0x11bdb8"
+        ],
+        "init_user_volume_accumulator": [
+          "0x11bd18"
+        ],
+        "initialize": [
+          "0x11b7e8"
+        ],
+        "initialize_quote_control": [
+          "0x11be38"
+        ],
+        "migrate": [
+          "0x11bb78"
+        ],
+        "migrate_bonding_curve_creator": [
+          "0x11bd98"
+        ],
+        "migrate_v2": [
+          "0x11bb98"
+        ],
+        "multi_hop_curve_swap": [
+          "0x11bab8"
+        ],
+        "remove_quote_control_mint": [
+          "0x11be98"
+        ],
+        "remove_quote_mint": [
+          "0x11b918"
+        ],
+        "sell": [
+          "0x11bb58"
+        ],
+        "sell_v2": [
+          "0x11ba38"
+        ],
+        "sell_v3": [
+          "0x11ba98"
+        ],
+        "set_creator": [
+          "0x11bc58"
+        ],
+        "set_max_curve_depth": [
+          "0x11b898"
+        ],
+        "set_mayhem_virtual_params": [
+          "0x11b978"
+        ],
+        "set_metaplex_creator": [
+          "0x11bc38"
+        ],
+        "set_params": [
+          "0x11b958"
+        ],
+        "set_quote_control_admin": [
+          "0x11be58"
+        ],
+        "set_quote_control_mint_reserves": [
+          "0x11bed8"
+        ],
+        "set_quote_control_reserves_admin": [
+          "0x11beb8"
+        ],
+        "set_reserved_fee_recipients": [
+          "0x11b998"
+        ],
+        "set_virtual_quote_reserves": [
+          "0x11b938"
+        ],
+        "sweep_creator_fee": [
+          "0x11baf8"
+        ],
+        "sweep_protocol_fee": [
+          "0x11bad8"
+        ],
+        "sync_user_volume_accumulator": [
+          "0x11bd58"
+        ],
+        "toggle_cashback_enabled": [
+          "0x11b858"
+        ],
+        "toggle_create_v2": [
+          "0x11b838"
+        ],
+        "toggle_mayhem_mode": [
+          "0x11b8b8"
+        ],
+        "update_buyback_config": [
+          "0x11be18"
+        ],
+        "update_creator_fee_config": [
+          "0x11b8d8"
+        ],
+        "update_global_authority": [
+          "0x11b808"
+        ],
+        "update_holder_reward_config": [
+          "0x11b878"
+        ]
+      },
+      "unmatched_idl_selectors": []
+    },
+    {
+      "name": "pump_amm",
+      "program": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "payload_sha256": "6a7ad34596d83b4c435b32f458a56e718e9f82eb4ad38e4316616d15d24d8ff7",
+      "payload_bytes": 10485715,
+      "elf_extent_bytes": 1268504,
+      "allocation_padding_bytes": 9217211,
+      "allocation_padding_all_zero": true,
+      "machine": "263",
+      "flags": 0,
+      "entrypoint": 974888,
+      "text_virtual_address": 288,
+      "text_bytes": 1162040,
+      "text_sha256": "a8e8a0fb2a49d71e615affdc480b4753312dc18b6fcbecc351838cf95e494c4f",
+      "sections": [
+        {
+          "name": "",
+          "offset": 0,
+          "virtual_address": 0,
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": ".text",
+          "offset": 288,
+          "virtual_address": 288,
+          "size": 1162040,
+          "sha256": "a8e8a0fb2a49d71e615affdc480b4753312dc18b6fcbecc351838cf95e494c4f"
+        },
+        {
+          "name": ".rodata",
+          "offset": 1162328,
+          "virtual_address": 1162328,
+          "size": 25715,
+          "sha256": "1df4e071eb74487c74f27b758e53cf0d7d9ea674770f771c81c5757a1e9e81d3"
+        },
+        {
+          "name": ".data.rel.ro",
+          "offset": 1188048,
+          "virtual_address": 1188048,
+          "size": 8584,
+          "sha256": "b14ba9a08c757fd7ad2d896827b83cf245f00a5ed3922da4b42a8113334f0a07"
+        },
+        {
+          "name": ".dynamic",
+          "offset": 1196632,
+          "virtual_address": 1196632,
+          "size": 176,
+          "sha256": "3b35617128746455719b1d24c64a2a50d816dfeae485f34e966d984c9bf75b0f"
+        },
+        {
+          "name": ".dynsym",
+          "offset": 1196808,
+          "virtual_address": 1196808,
+          "size": 408,
+          "sha256": "43fbfe84689f2f50df8231dcd37f53fe7309cdbe72f48d82f33d847afbafa52f"
+        },
+        {
+          "name": ".dynstr",
+          "offset": 1197216,
+          "virtual_address": 1197216,
+          "size": 255,
+          "sha256": "a77c1891c9d628111a02a7a4bb670c1dd4c38f3e6dc682292058a205ce747b2e"
+        },
+        {
+          "name": ".rel.dyn",
+          "offset": 1197472,
+          "virtual_address": 1197472,
+          "size": 70384,
+          "sha256": "a64235af18076fea41bacf14f0c39da7ea59c5653f8ce18847330d5efbb9b802"
+        },
+        {
+          "name": ".shstrtab",
+          "offset": 1267856,
+          "virtual_address": 0,
+          "size": 72,
+          "sha256": "d981263d501f120e0990544791b6647d652caea4613d7fe87ca90431c71f4911"
+        }
+      ],
+      "idl_instruction_count": 38,
+      "idl_account_types": [
+        "BondingCurve",
+        "FeeConfig",
+        "GlobalConfig",
+        "GlobalVolumeAccumulator",
+        "Pool",
+        "SharingConfig",
+        "UserVolumeAccumulator"
+      ],
+      "selector_lddw_hit_count": 38,
+      "selector_lddw_hits": {
+        "admin_cto_pool": [
+          "0xdc0d8"
+        ],
+        "admin_update_token_incentives": [
+          "0xdbeb8"
+        ],
+        "boost_buy_and_burn": [
+          "0xdbe38"
+        ],
+        "buy": [
+          "0xdbf58"
+        ],
+        "buy_exact_quote_in": [
+          "0xdbf78"
+        ],
+        "buy_exact_quote_in_v2": [
+          "0xdbfd8"
+        ],
+        "buy_v2": [
+          "0xdbfb8"
+        ],
+        "claim_cashback": [
+          "0xdc1b8"
+        ],
+        "claim_token_incentives": [
+          "0xdbed8"
+        ],
+        "close_user_volume_accumulator": [
+          "0xdbf18"
+        ],
+        "collect_coin_creator_fee": [
+          "0xdc098"
+        ],
+        "create_config": [
+          "0xdbd28"
+        ],
+        "create_pool": [
+          "0xdbdd8"
+        ],
+        "deposit": [
+          "0xdbe78"
+        ],
+        "disable": [
+          "0xdbd48"
+        ],
+        "extend_account": [
+          "0xdc078"
+        ],
+        "init_boost": [
+          "0xdbdf8"
+        ],
+        "init_user_volume_accumulator": [
+          "0xdbef8"
+        ],
+        "migrate_pool_coin_creator": [
+          "0xdc178"
+        ],
+        "multi_hop_swap": [
+          "0xdc018"
+        ],
+        "sell": [
+          "0xdbf98"
+        ],
+        "sell_v2": [
+          "0xdbff8"
+        ],
+        "set_boost_authority": [
+          "0xdbe18"
+        ],
+        "set_coin_creator": [
+          "0xdc0b8"
+        ],
+        "set_reserved_fee_recipients": [
+          "0xdbe58"
+        ],
+        "sweep_creator_fee": [
+          "0xdc058"
+        ],
+        "sweep_protocol_fee": [
+          "0xdc038"
+        ],
+        "sync_user_volume_accumulator": [
+          "0xdbf38"
+        ],
+        "toggle_boost": [
+          "0xdc118"
+        ],
+        "toggle_cashback_enabled": [
+          "0xdc198"
+        ],
+        "toggle_mayhem_mode": [
+          "0xdc0f8"
+        ],
+        "transfer_creator_fees_to_pump": [
+          "0xdc138"
+        ],
+        "transfer_creator_fees_to_pump_v2": [
+          "0xdc158"
+        ],
+        "update_admin": [
+          "0xdbd78"
+        ],
+        "update_buyback_config": [
+          "0xdc1d8"
+        ],
+        "update_creator_fee_config": [
+          "0xdbdb8"
+        ],
+        "update_fee_config": [
+          "0xdbd98"
+        ],
+        "withdraw": [
+          "0xdbe98"
+        ]
+      },
+      "unmatched_idl_selectors": []
+    },
+    {
+      "name": "pump_fees",
+      "program": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "payload_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+      "payload_bytes": 948944,
+      "elf_extent_bytes": 873256,
+      "allocation_padding_bytes": 75688,
+      "allocation_padding_all_zero": true,
+      "machine": "263",
+      "flags": 0,
+      "entrypoint": 660680,
+      "text_virtual_address": 288,
+      "text_bytes": 799648,
+      "text_sha256": "904fe7647fca9b1d34bee473db70d08e11edb4e758f4bb171dc96acffb253735",
+      "sections": [
+        {
+          "name": "",
+          "offset": 0,
+          "virtual_address": 0,
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": ".text",
+          "offset": 288,
+          "virtual_address": 288,
+          "size": 799648,
+          "sha256": "904fe7647fca9b1d34bee473db70d08e11edb4e758f4bb171dc96acffb253735"
+        },
+        {
+          "name": ".rodata",
+          "offset": 799936,
+          "virtual_address": 799936,
+          "size": 21079,
+          "sha256": "4f5fa138930a628550d7c6c28e419c723c8107c5ab61a3f655dbb8f06d383a85"
+        },
+        {
+          "name": ".data.rel.ro",
+          "offset": 821016,
+          "virtual_address": 821016,
+          "size": 6744,
+          "sha256": "45050d1c092c3f07566126adaf9a327120f65a3e31c8cde7028a60520eac473b"
+        },
+        {
+          "name": ".dynamic",
+          "offset": 827760,
+          "virtual_address": 827760,
+          "size": 176,
+          "sha256": "00f60a0f8a3c928177b6d64d79dc346cb3b578befc4b527b0248c9c9e9e104f4"
+        },
+        {
+          "name": ".dynsym",
+          "offset": 827936,
+          "virtual_address": 827936,
+          "size": 432,
+          "sha256": "e0aaf7862cc94e6583345a04e8dcdc8257088dfff00d988f93d15f7110a665bd"
+        },
+        {
+          "name": ".dynstr",
+          "offset": 828368,
+          "virtual_address": 828368,
+          "size": 268,
+          "sha256": "f6c7979eed325478827666e8b89fe460cea5fd8af09164e1efa798dfae5f967b"
+        },
+        {
+          "name": ".rel.dyn",
+          "offset": 828640,
+          "virtual_address": 828640,
+          "size": 43968,
+          "sha256": "9ea1239da66f16675f8ea84f73005048651c5c21eb3456de4035b459747391dc"
+        },
+        {
+          "name": ".shstrtab",
+          "offset": 872608,
+          "virtual_address": 0,
+          "size": 72,
+          "sha256": "d981263d501f120e0990544791b6647d652caea4613d7fe87ca90431c71f4911"
+        }
+      ],
+      "idl_instruction_count": 31,
+      "idl_account_types": [
+        "BondingCurve",
+        "BuybackVault",
+        "DonationFeePda",
+        "FeeConfig",
+        "FeeProgramGlobal",
+        "Global",
+        "Pool",
+        "SharingConfig",
+        "SocialFeePda"
+      ],
+      "selector_lddw_hit_count": 31,
+      "selector_lddw_hits": {
+        "admin_cto_sharing_config": [
+          "0x92390"
+        ],
+        "claim_social_fee_pda": [
+          "0x923d0"
+        ],
+        "claim_social_fee_pda_v2": [
+          "0x923f0"
+        ],
+        "crank_donation_fee_pda": [
+          "0x924b0"
+        ],
+        "create_donation_fee_pda": [
+          "0x92490"
+        ],
+        "create_fee_sharing_config": [
+          "0x922f0"
+        ],
+        "create_social_fee_pda": [
+          "0x923b0"
+        ],
+        "extend_fee_config": [
+          "0x92250"
+        ],
+        "get_fees": [
+          "0x922b0"
+        ],
+        "get_fees_with_quote_mint": [
+          "0x922d0"
+        ],
+        "initialize_buyback": [
+          "0x92410"
+        ],
+        "initialize_fee_config": [
+          "0x92100"
+        ],
+        "initialize_fee_program_global": [
+          "0x92120"
+        ],
+        "revoke_fee_sharing_authority": [
+          "0x92310"
+        ],
+        "set_authority": [
+          "0x921b0"
+        ],
+        "set_claim_rate_limit": [
+          "0x92190"
+        ],
+        "set_disable_flags": [
+          "0x92170"
+        ],
+        "set_exotic_flat_fees": [
+          "0x92270"
+        ],
+        "set_social_claim_authority": [
+          "0x92150"
+        ],
+        "sweep_buyback": [
+          "0x92430"
+        ],
+        "transfer_fee_sharing_authority": [
+          "0x92330"
+        ],
+        "update_admin": [
+          "0x92290"
+        ],
+        "update_buyback_authority": [
+          "0x92450"
+        ],
+        "update_buyback_claim_rate_limit": [
+          "0x92470"
+        ],
+        "update_fee_config": [
+          "0x921d0"
+        ],
+        "update_fee_shares": [
+          "0x92350"
+        ],
+        "update_fee_shares_v2": [
+          "0x92370"
+        ],
+        "update_stable_fee_config": [
+          "0x92210"
+        ],
+        "upsert_fee_tiers": [
+          "0x921f0"
+        ],
+        "upsert_stable_fee_tiers": [
+          "0x92230"
+        ],
+        "withdraw": [
+          "0x924d0"
+        ]
+      },
+      "unmatched_idl_selectors": []
+    }
+  ]
+}

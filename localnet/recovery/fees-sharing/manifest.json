@@ -1,0 +1,26 @@
+{
+  "scope": "Partial sharing-config creation source; not full program byte identity.",
+  "original_sha256": "4f2955d0f6b40cc9ff7daa18ccad7d19119ba1249759f4e7e3bb691beee6b35e",
+  "candidate_sha256": "8551d3530b0c957b0fa927994ceffc799683d5e3c119f4f02b465426249f68af",
+  "litesvm_cases": 116,
+  "surfpool_cases": 8,
+  "signed_surfpool_transactions": 16,
+  "mismatches": [],
+  "runner_sha256": "5f8cdac07fdf1474288f98b27e9e4610113a5d9fb0cc49f400fa73e610e1b8ff",
+  "fixture_script_sha256": "8ebf122a3177147de9484537acee97c7dff589bd2ed6cc388f07bd6886451898",
+  "files": {
+    "README.md": "53a4ea6057802ddcf3290349ede724a078d62b5237a4dbea5548858faaf1b823",
+    "build-comparison.json": "9b274e7c78564a377ac8da8dfcdb56ed556fbcf9adc2d3aa947d6e445414559d",
+    "build.log": "d344fd79f1b519aeeb4f98b572d422ccf66d6de8525071fc4ce2925338cf5c96",
+    "crate/Cargo.lock": "e2c9a1b5b0960f33604a93084a466a17337ccd0197eec557607e2c6e04bfe560",
+    "crate/Cargo.toml": "42b64cbeae855c4028e44802fedc9836efe773d3cabfaab4936f756d7c9ae7c9",
+    "crate/src/errors.rs": "bd1377abfcb46707a8d5b39c5068bf534d4a507df3dbdd6474236fb2887d6bde",
+    "crate/src/lib.rs": "81506058a7befa707abe7354376b85c214788cdd3fadc3b86b5019589272431d",
+    "crate/src/pump_global.rs": "3f4582859b76e9d6a2b5a43bb87d89192eb27878154adcb776f2664bf36099d3",
+    "crate/src/types.rs": "80cf76097f88ae0c51031dbf9fe8392704cd75b9ea4b3e99fa428f946ecb6a4c",
+    "differential.json.gz": "c5333e9dc2c200915e3b243e7def59efb96247a48f186ea941cec8e69888b258",
+    "pump_fees_candidate.so": "8551d3530b0c957b0fa927994ceffc799683d5e3c119f4f02b465426249f68af",
+    "surfpool-fixtures.json.gz": "80f30a64afe173e5a96ba08386892b0b831995386dc1b31ba4b3560cc2d5f646",
+    "surfpool-transactions.json.gz": "dec4e844f0a78914c878b4ce982cbfafa39f1e9ceada7f585d87677fa87dce1c"
+  }
+}
